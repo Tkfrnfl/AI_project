@@ -29,18 +29,33 @@ for i in csv_data:
 # print(tf.__version__)
 #country_result_posi=[0 for _ in range(math.ceil(len(data_list)/2))]
 country_result_posi=[]
+country_result_nega=[]
 country_list=[]
 
-for i,val in enumerate(data_list):
+for i,val in enumerate(data_list):          #데이터 가공
     if i !=0:
         if val[1]not in country_list:
             country_list.append(val[1])
         if val[2] not in country_list:
             country_list.append(val[2])
-        data_list=[]
-        data_list.append([val[1],val[3],val[5],val[7],val[9],val[17]])
-        country_result_posi.append(data_list)
+        data_list_h=[]                          #긍정 데이터 가공
+        data_list_a=[]
+        data_list_h.append([val[1],val[3],val[5],val[7],val[9],val[17]])
+        data_list_a.append([val[2],val[4],val[6],val[8],val[10],val[18]])
+        country_result_posi.append(data_list_h)
+        country_result_posi.append(data_list_a)
 
+        data_list_h_ne=[]                          #부정 데이터 가공
+        data_list_a_ne=[]
+        data_list_h_ne.append([val[1],val[11],val[13],val[15]])
+        data_list_a_ne.append([val[2],val[12],val[14],val[16]])
+        country_result_nega.append(data_list_h_ne)
+        country_result_nega.append(data_list_a_ne)
+
+
+
+
+#print(len(country_result_posi))
 for j,val_j in enumerate(country_list):
     for i,val in enumerate(country_result_posi):
         if val_j in val[0]:
