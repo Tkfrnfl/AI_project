@@ -6,6 +6,7 @@ from PIL import Image
 import pandas as pd
 import csv
 import math
+from NN import NN
 #import tensorflow as tf
 # csv_data=pd.read_csv('./FIFAallMatchBoxData.csv')
 
@@ -47,19 +48,18 @@ for i,val in enumerate(data_list):          #데이터 가공
 
         data_list_h_ne=[]                          #부정 데이터 가공
         data_list_a_ne=[]
-        data_list_h_ne.append([val[1],val[11],val[13],val[15]])
-        data_list_a_ne.append([val[2],val[12],val[14],val[16]])
+        data_list_h_ne.append([val[1],val[3],val[11],val[13],val[15]])
+        data_list_a_ne.append([val[2],val[4],val[12],val[14],val[16]])
         country_result_nega.append(data_list_h_ne)
         country_result_nega.append(data_list_a_ne)
 
 
+# for j,val_j in enumerate(country_list):
+#     for i,val in enumerate(country_result_posi):
+#         if val_j in val[0]:
+#             print(val[0])
 
-
-#print(len(country_result_posi))
-for j,val_j in enumerate(country_list):
-    for i,val in enumerate(country_result_posi):
-        if val_j in val[0]:
-            print(val[0])
+NN(country_result_posi,country_result_nega,"France")
 
 
 
