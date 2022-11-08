@@ -9,8 +9,10 @@ import matplotlib.pyplot as plt
 class NN:
     def __init__(self,input_data_posi,input_data_nega,country):
 
-        input_data=[]
-        out_data=[]
+        input_data_po=[]
+        out_data_po=[]
+        input_data_ne=[]
+        out_data_ne=[]
     
         learning_rate = 0.00001
         epochs = 500
@@ -22,15 +24,27 @@ class NN:
         w1=np.random.rand(784,10)    # 가중치와 편향 초기화
         b1=np.random.rand(10)
 
-        for i,val in enumerate(input_data_posi):  #각 나라별 input, output 데이터 정제
+        for i,val in enumerate(input_data_posi):  #각 나라별 input, output 데이터 정제(posi)
             if country in val[0]:
                 tmp=val[0]
-                input_data.append(tmp[2:])
-                out_data.append(tmp[1:2])
+                input_data_po.append(tmp[2:])
+                out_data_po.append(tmp[1])
 
-        tmp_y=np.max(train_label)+1   #output one hot encoding
-                y=np.eye(tmp_y)[train_label]
-                x=np.array(train_list)
+        out_data_po=list(map(int,out_data_po))
+
+        tmp_ohe=np.max(out_data_po)+1          #output one hot encoding
+        out_ohe_po=np.eye(tmp_ohe)[out_data_po]
+
+        for i,val in enumerate(input_data_nega):  #각 나라별 input, output 데이터 정제(nega)
+            if country in val[0]:
+                tmp=val[0]
+                input_data_ne.append(tmp[2:])
+                out_data_ne.append(tmp[1])
+
+        out_data_ne=list(map(int,out_data_ne))
+
+        tmp_ohe=np.max(out_data_ne)+1          #output one hot encoding
+        out_ohe_ne=np.eye(tmp_ohe)[out_data_ne]
 
     def predict(self,x):
         W1,W2=self.params['W1'],self.params['W2']
