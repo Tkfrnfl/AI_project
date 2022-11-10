@@ -41,10 +41,11 @@ for i,val in enumerate(data_list):          #데이터 가공
             country_list.append(val[2])
         data_list_h=[]                          #긍정 데이터 가공
         data_list_a=[]
-        data_list_h.append([val[1],val[3],val[5],val[7],val[9],val[17]])
-        data_list_a.append([val[2],val[4],val[6],val[8],val[10],val[18]])
-        country_result_posi.append(data_list_h)
-        country_result_posi.append(data_list_a)
+        if val[5] !="0":                        #점유율 데이터가 0 아닌경우만 저장
+            data_list_h.append([val[1],val[3],val[5],val[7],val[9],val[17]])
+            data_list_a.append([val[2],val[4],val[6],val[8],val[10],val[18]])
+            country_result_posi.append(data_list_h)
+            country_result_posi.append(data_list_a)
 
         data_list_h_ne=[]                          #부정 데이터 가공
         data_list_a_ne=[]
@@ -59,7 +60,7 @@ for i,val in enumerate(data_list):          #데이터 가공
 #         if val_j in val[0]:
 #             print(val[0])
 
-NN(country_result_posi,country_result_nega,"France")
+NN(country_result_posi,country_result_nega,"Denmark")
 
 
 
