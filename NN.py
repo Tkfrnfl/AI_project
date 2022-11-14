@@ -7,24 +7,27 @@ from random import random
 import matplotlib.pyplot as plt
 
 class NN:
+    plt_X=[]
     def __init__(self,input_data_posi,input_data_nega,country):
 
         input_data_po=[]
         out_data_po=[]
         input_data_ne=[]
         out_data_ne=[]
-    
+
+        
+
         lr = 0.1
-        epochs = 50
+        epochs = 30
 
         cost_list=[[0]*1000 for _ in range(10)]
         correct=0
         sum=0
         self.params={}
         self.params['w1']=np.random.rand(4,15)      # 가중치와 편향 초기화
-        self.params['b1']=np.random.rand(15)
+        self.params['b1']=np.zeros(15)
         self.params['w2']=np.random.rand(15,15)  
-        self.params['b2']=np.random.rand(15)
+        self.params['b2']=np.zeros(15)
 
 
         for i,val in enumerate(input_data_posi):  #각 나라별 input, output 데이터 정제(posi)
@@ -70,7 +73,10 @@ class NN:
                 ans+=self.accuracy(input_data_po[i],out_ohe_po[i])
                 total+=1
 
-        print(ans/total)        
+        print(ans/total)     
+        x=range(len(NN.plt_X))   
+        plt.plot(x,NN.plt_X,'y-')
+        plt.show()
 
             
 
@@ -105,7 +111,8 @@ class NN:
         if y.ndim==1:
             t=t.reshape(1,t.size)
             y=y.reshape(1,y.size)
-        print(-np.sum(t*np.log(y+delta))    )   
+        NN.plt_X.append(-np.sum(t*np.log(y+delta)) )
+        #print(-np.sum(t*np.log(y+delta))    )   
         return -np.sum(t*np.log(y+delta))    
 
     def numerical_gradient_no_batch(f,x):
