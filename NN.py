@@ -78,90 +78,90 @@ class NN:
 
             
 
-    def predict(self,x):
-        w1,w2=self.params['W1'],self.params['W2']
-        b1,b2=self.params['b1'],self.params['b2']
-        a1=np.dot(x,w1) +b1
-        z1=NN.sigmoid(self,a1)
-        a2=np.dot(z1,w2)+b2
-        y=NN.softmax(a2)
+    # def predict(self,x):
+    #     w1,w2=self.params['W1'],self.params['W2']
+    #     b1,b2=self.params['b1'],self.params['b2']
+    #     a1=np.dot(x,w1) +b1
+    #     z1=NN.sigmoid(self,a1)
+    #     a2=np.dot(z1,w2)+b2
+    #     y=NN.softmax(a2)
 
-        return y
+    #     return y
 
         
     
-    def sigmoid(self,x):
-        return 1/(1+np.exp(-x))
+    # def sigmoid(self,x):
+    #     return 1/(1+np.exp(-x))
 
-    def softmax(x):
-        c=np.max(x,axis=0)
-        exp_x=np.exp(x-c)
-        y=exp_x/np.sum(exp_x,axis=0)
-        return y
+    # def softmax(x):
+    #     c=np.max(x,axis=0)
+    #     exp_x=np.exp(x-c)
+    #     y=exp_x/np.sum(exp_x,axis=0)
+    #     return y
     
-    def loss(self,x,t):
-        y=NN.predict(self,x)
+    # def loss(self,x,t):
+    #     y=NN.predict(self,x)
 
-        return NN.cee(y,t)
+    #     return NN.cee(y,t)
 
-    def cee(y,t):
-        delta = 1e-7                  
-        if y.ndim==1:
-            t=t.reshape(1,t.size)
-            y=y.reshape(1,y.size)
-        print(-np.sum(t*np.log(y+delta))    )   
-        return -np.sum(t*np.log(y+delta))    
+    # def cee(y,t):
+    #     delta = 1e-7                  
+    #     if y.ndim==1:
+    #         t=t.reshape(1,t.size)
+    #         y=y.reshape(1,y.size)
+    #     print(-np.sum(t*np.log(y+delta))    )   
+    #     return -np.sum(t*np.log(y+delta))    
 
-    def numerical_gradient_no_batch(f,x):
-        h=1e-4
-        grad=np.zeros_like(x)
-        for idx in range(x.size):
-            tmp_val=x[idx]
+    # def numerical_gradient_no_batch(f,x):
+    #     h=1e-4
+    #     grad=np.zeros_like(x)
+    #     for idx in range(x.size):
+    #         tmp_val=x[idx]
 
-            x[idx]=tmp_val+h
-            fxh1=f(x)
-            x[idx]=tmp_val-h
-            fxh2=f(x)
+    #         x[idx]=tmp_val+h
+    #         fxh1=f(x)
+    #         x[idx]=tmp_val-h
+    #         fxh2=f(x)
 
-            grad[idx]=(fxh1-fxh2)/(2*h)
-            x[idx]=tmp_val
-        return grad    
+    #         grad[idx]=(fxh1-fxh2)/(2*h)
+    #         x[idx]=tmp_val
+    #     return grad    
 
-    def gradient(f, X):                 #x 배열 차원에 따라 다르게 gradient
-        if X.ndim == 1:
-            return NN.numerical_gradient_no_batch(f, X)
-        else:
-            grad = np.zeros_like(X)
+    # def gradient(f, X):                 #x 배열 차원에 따라 다르게 gradient
+    #     if X.ndim == 1:
+    #         return NN.numerical_gradient_no_batch(f, X)
+    #     else:
+    #         grad = np.zeros_like(X)
             
-            for idx, x in enumerate(X):
-                grad[idx] = NN.numerical_gradient_no_batch(f, x)
+    #         for idx, x in enumerate(X):
+    #             grad[idx] = NN.numerical_gradient_no_batch(f, x)
             
-            return grad
+    #         return grad
 
 
-    def numerical_gradient(self,x,t):
-        loss_W = lambda W: self.loss(x, t)   #람다 정규식> lambda 변수: return 식
-        grads = {}
-        grads['w1'] = NN.gradient(loss_W, self.params['w1'])
-        grads['b1'] = NN.gradient(loss_W, self.params['b1'])
-        grads['w2'] = NN.gradient(loss_W, self.params['w2'])
-        grads['b2'] = NN.gradient(loss_W, self.params['b2'])
-        #print(grads['w1'])
-        return grads
+    # def numerical_gradient(self,x,t):
+    #     loss_W = lambda W: self.loss(x, t)   #람다 정규식> lambda 변수: return 식
+    #     grads = {}
+    #     grads['w1'] = NN.gradient(loss_W, self.params['w1'])
+    #     grads['b1'] = NN.gradient(loss_W, self.params['b1'])
+    #     grads['w2'] = NN.gradient(loss_W, self.params['w2'])
+    #     grads['b2'] = NN.gradient(loss_W, self.params['b2'])
+    #     #print(grads['w1'])
+    #     return grads
 
-    def accuracy(self, x, t):
-        y = self.predict(x)
-        y = np.argmax(y) 
+    # def accuracy(self, x, t):
+    #     y = self.predict(x)
+    #     y = np.argmax(y) 
 
-        # if t.ndim != 1 :   
-        #     t = np.argmax(t, axis=1)
-        t = np.argmax(t)
-        #accuracy = np.sum(y == t) / float(x.shape[0])   
+    #     # if t.ndim != 1 :   
+    #     #     t = np.argmax(t, axis=1)
+    #     t = np.argmax(t)
+    #     #accuracy = np.sum(y == t) / float(x.shape[0])   
 
-        if y==t :
-            return 1
-        else:
-            return 0    
+    #     if y==t :
+    #         return 1
+    #     else:
+    #         return 0    
 
     def nomalize(self,x):
         min=np.min(x,axis=0)
@@ -262,34 +262,46 @@ class Affine:
 
     def forward(self, x):
         self.original_x_shape = x.shape
-		
-        # 평탄화 진행
-        if x.ndim !=1:
-            DATE_SIZE = x.shape[0]	# 배치 사이즈 가져오기
-            x = x.reshape(DATE_SIZE, -1)
-            self.x = x	# 역전파 때 가중치에 곱하기 위해 저장
-            # print('???')
-            # print(self.x.shape)
-            out = np.dot(self.x, self.W) + self.b
-            # print('aff')
-            # print(out)
-            return out
-        else:
-            self.x = x
-            out = np.dot(x, self.W) + self.b
-            # print(self.W.shape)
-            # print('aff')
-            # print(out)
-            return out
+        
+
+        # # 평탄화 진행
+        # if x.ndim !=1:
+        #     DATE_SIZE = x.shape[0]	# 배치 사이즈 가져오기
+        #     x = x.reshape(DATE_SIZE, -1)
+        #     self.x = x	# 역전파 때 가중치에 곱하기 위해 저장
+        #     # print('???')
+        #     # print(self.x.shape)
+        #     out = np.dot(self.x, self.W) + self.b
+        #     # print('aff')
+        #     # print(out)
+        #     return out
+        # else:
+        #     self.x = x
+        #     out = np.dot(x, self.W) + self.b
+        #     # print(self.W.shape)
+        #     # print('aff')
+        #     # print(out)
+        #     return out
+
+        DATE_SIZE = x.shape[0]	# 배치 사이즈 가져오기
+        
+        out = np.dot(x, self.W) + self.b
+        x = x.reshape(DATE_SIZE, -1)
+        self.x = x	# 역전파 때 가중치에 곱하기 위해 저장
+        
+        print(self.x.shape)
+        print(out.shape)
+        return out
         
     def backward(self, dout):
         dx = np.dot(dout, self.W.T)
-        # print(dout.shape)
-        # print(self.W.T.shape)
-        # print(dx)
+
+        print(dout.shape)
+        print(self.W.T.shape)
+        print(dx.shape)
         # print(self.x.shape)
-        # print(self.x.T.shape)
-        self.dw = np.dot(self.x.T, dx)
+        print(self.x.T.shape)
+        self.dw = np.dot(self.x, dout.reshape(dout.shape[0],-1).T)
         self.db = np.sum(dout, axis=0)
         
         # 미분값( dx )을 입력값 x의 형상으로 다시 바꿔주기
