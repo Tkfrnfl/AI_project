@@ -1,0 +1,268 @@
+date_GMT,home_team_name,away_team_name,home_team_goal_count,away_team_goal_count,home_team_yellow_cards,home_team_possession,away_team_possession,home_team_shots_on_target,away_team_shots_on_target,home_team_red_cards,away_team_yellow_cards,away_team_red_cards,home_team_shots,away_team_shots,home_team_fouls,away_team_fouls
+Jan 27 2018 - 1:00pm,South Korea,Moldova,1,0,1,50,50,4,0,0,0,0,13,0,-1,-1
+Jan 29 2018 - 2:30am,USMNT,Bosnia-Herzegovina,0,0,1,51,49,4,3,0,2,0,11,13,19,15
+Jan 30 2018 - 11:00am,South Korea,Jamaica,2,2,1,-1,-1,-1,-1,0,2,0,-1,-1,-1,-1
+Feb 01 2018 - 2:00am,Mexico,Bosnia-Herzegovina,1,0,1,50,50,4,0,0,2,1,13,5,-1,-1
+Feb 03 2018 - 2:30pm,South Korea,Latvia,1,0,-1,50,50,8,0,-1,-1,-1,23,2,-1,-1
+Mar 21 2018 - 5:00pm,Liechtenstein,Andorra,0,1,4,56,44,0,5,0,4,0,5,9,13,20
+Mar 22 2018 - 11:30am,Philippines,Fiji,3,2,3,58,42,9,6,0,1,0,16,9,19,12
+Mar 22 2018 - 5:00pm,Malta,Luxembourg,0,1,1,34,66,3,7,0,1,0,4,15,12,9
+Mar 22 2018 - 5:00pm,Faroe Islands,Latvia,1,1,1,52,48,6,4,0,4,0,10,10,15,13
+Mar 22 2018 - 7:00pm,Denmark,Panama,1,0,1,63,37,9,2,0,3,1,19,3,14,13
+Mar 23 2018 - 11:30am,Singapore,Maldives,3,2,1,65,35,10,5,0,2,0,14,6,18,17
+Mar 23 2018 - 12:20pm,Japan,Mali,1,1,1,52,48,9,5,0,2,0,15,8,18,14
+Mar 23 2018 - 4:00pm,Russia,Brazil,0,3,0,37,63,4,15,0,0,0,10,23,8,6
+Mar 23 2018 - 4:00pm,Finland,FYR Macedonia,0,0,3,46,54,2,4,0,2,0,6,11,29,13
+Mar 23 2018 - 4:00pm,Azerbaijan,Belarus,0,1,2,61,39,4,3,0,2,0,13,7,17,17
+Mar 23 2018 - 4:00pm,Cyprus,Montenegro,0,0,0,51,49,5,0,0,1,0,10,4,15,14
+Mar 23 2018 - 5:00pm,Norway,Australia,4,1,1,51,49,7,5,0,0,0,12,6,11,13
+Mar 23 2018 - 5:00pm,Bulgaria,Bosnia-Herzegovina,0,1,2,46,54,7,3,1,0,0,10,9,13,11
+Mar 23 2018 - 5:30pm,Turkey,Republic of Ireland,1,0,1,61,39,7,2,0,2,0,13,7,11,14
+Mar 23 2018 - 6:00pm,Greece,Switzerland,0,1,1,53,47,2,4,0,0,0,10,10,18,16
+Mar 23 2018 - 6:00pm,Hungary,Kazakhstan,2,3,2,51,49,8,5,0,2,0,13,6,10,25
+Mar 23 2018 - 6:15pm,Tunisia,Iran,1,0,2,54,46,7,7,0,2,0,13,10,20,23
+Mar 23 2018 - 7:00pm,Saudi Arabia,Ukraine,1,1,3,50,50,3,7,0,2,0,5,18,14,22
+Mar 23 2018 - 7:30pm,Serbia,Morocco,1,2,1,57,43,4,4,0,2,0,14,7,20,11
+Mar 23 2018 - 7:45pm,Germany,Spain,1,1,0,50,50,5,3,0,0,0,10,8,10,11
+Mar 23 2018 - 7:45pm,Netherlands,England,0,1,0,47,53,7,5,0,0,0,12,11,10,8
+Mar 23 2018 - 7:45pm,Poland,Nigeria,0,1,1,56,44,6,2,0,1,0,13,9,16,19
+Mar 23 2018 - 7:45pm,Portugal,Egypt,2,1,1,50,50,6,3,0,1,0,10,4,13,13
+Mar 23 2018 - 7:45pm,Austria,Slovenia,3,0,1,50,50,9,3,0,1,0,19,7,10,14
+Mar 23 2018 - 7:45pm,Scotland,Costa Rica,0,1,0,51,49,4,2,0,1,0,13,7,12,6
+Mar 23 2018 - 7:45pm,Argentina,Italy,2,0,0,44,56,9,5,0,0,0,12,10,18,11
+Mar 23 2018 - 8:00pm,France,Colombia,2,3,1,55,45,5,5,0,2,0,8,11,12,17
+Mar 24 2018 - 12:30am,Peru,Croatia,2,0,2,39,61,4,8,1,2,0,8,16,14,9
+Mar 24 2018 - 2:30am,Mexico,Iceland,3,0,2,59,41,6,5,0,4,0,10,11,11,16
+Mar 24 2018 - 2:00pm,Northern Ireland,South Korea,2,1,0,44,56,4,5,0,0,0,6,14,11,8
+Mar 24 2018 - 2:00pm,Armenia,Estonia,0,0,0,60,40,6,2,0,3,0,13,9,16,15
+Mar 24 2018 - 3:00pm,Georgia,Lithuania,4,0,1,63,37,9,0,0,3,0,14,3,6,14
+Mar 24 2018 - 4:00pm,Qatar,Syria,2,2,1,-1,-1,-1,-1,0,2,0,-1,-1,-1,-1
+Mar 24 2018 - 5:00pm,Sweden,Chile,1,2,1,39,61,3,8,0,2,0,10,14,12,12
+Mar 24 2018 - 6:00pm,Israel,Romania,1,2,2,50,50,8,6,0,1,0,11,12,16,17
+Mar 24 2018 - 6:00pm,Togo,Ivory Coast,2,2,1,46,54,4,6,0,0,0,8,12,14,15
+Mar 25 2018 - 2:00pm,Gibraltar,Latvia,1,0,2,45,55,3,4,0,2,0,7,11,14,13
+Mar 25 2018 - 3:30pm,Kuwait,Cameroon,1,3,2,44,56,7,6,0,2,0,8,13,11,18
+Mar 25 2018 - 4:00pm,Faroe Islands,Liechtenstein,3,0,1,54,46,9,4,0,1,0,12,13,13,12
+Mar 26 2018 - 4:00pm,Finland,Malta,5,0,1,63,37,9,0,0,1,0,16,4,17,11
+Mar 26 2018 - 4:00pm,Bulgaria,Kazakhstan,2,1,0,51,49,4,3,0,1,0,8,10,10,16
+Mar 26 2018 - 5:00pm,Albania,Norway,0,1,1,50,50,0,5,0,1,0,7,19,11,24
+Mar 26 2018 - 6:30pm,Portugal,Netherlands,0,3,1,57,43,8,5,1,2,0,12,6,14,10
+Mar 27 2018 - 12:20pm,Japan,Ukraine,1,2,2,50,50,5,4,0,2,0,8,7,16,14
+Mar 27 2018 - 3:00pm,Armenia,Lithuania,0,1,0,60,40,0,3,0,4,0,7,10,11,32
+Mar 27 2018 - 3:00pm,Georgia,Estonia,2,0,1,59,41,6,2,0,1,0,21,6,13,17
+Mar 27 2018 - 3:50pm,Russia,France,1,3,2,50,50,3,7,0,1,0,8,12,20,7
+Mar 27 2018 - 4:00pm,Iran,Algeria,2,1,1,45,55,6,8,0,4,0,18,16,16,17
+Mar 27 2018 - 4:00pm,Azerbaijan,FYR Macedonia,1,1,1,47,53,8,9,0,2,0,8,16,24,10
+Mar 27 2018 - 5:00pm,Switzerland,Panama,6,0,0,58,42,10,3,0,1,0,13,5,18,13
+Mar 27 2018 - 5:10pm,Montenegro,Turkey,2,2,2,50,50,5,5,0,1,0,15,9,17,15
+Mar 27 2018 - 6:00pm,Egypt,Greece,0,1,1,50,50,5,7,0,3,0,5,9,9,16
+Mar 27 2018 - 6:00pm,Tunisia,Costa Rica,1,0,1,56,44,4,4,0,4,0,9,7,11,12
+Mar 27 2018 - 6:00pm,Hungary,Scotland,0,1,3,44,56,5,3,0,3,0,10,10,25,18
+Mar 27 2018 - 6:00pm,Denmark,Chile,0,0,1,51,49,4,4,0,1,0,10,11,17,9
+Mar 27 2018 - 6:00pm,Senegal,Bosnia-Herzegovina,0,0,0,50,50,2,5,0,0,0,9,11,10,11
+Mar 27 2018 - 6:15pm,Slovenia,Belarus,0,2,1,59,41,4,5,0,2,0,12,11,11,24
+Mar 27 2018 - 6:30pm,Luxembourg,Austria,0,4,2,38,62,2,8,0,3,0,3,10,18,16
+Mar 27 2018 - 6:30pm,Romania,Sweden,1,0,1,42,58,3,2,0,2,0,10,9,16,17
+Mar 27 2018 - 6:45pm,Germany,Brazil,0,1,0,50,50,2,4,0,0,0,13,12,13,10
+Mar 27 2018 - 6:45pm,Poland,South Korea,3,2,1,54,46,6,9,0,1,0,12,14,11,10
+Mar 27 2018 - 6:45pm,Belgium,Saudi Arabia,4,0,0,55,45,15,2,0,2,0,31,5,9,10
+Mar 27 2018 - 7:00pm,England,Italy,1,1,3,54,46,7,3,0,0,0,12,10,9,7
+Mar 27 2018 - 7:00pm,Morocco,Uzbekistan,2,0,1,57,43,6,0,0,2,0,6,3,14,14
+Mar 27 2018 - 7:00pm,Colombia,Australia,0,0,0,50,50,4,2,0,0,0,15,7,10,15
+Mar 27 2018 - 7:00pm,Nigeria,Serbia,0,2,1,50,50,4,8,0,1,0,8,13,14,13
+Mar 27 2018 - 7:30pm,Spain,Argentina,6,1,2,49,51,7,4,0,4,0,11,11,20,13
+Mar 27 2018 - 11:30pm,USMNT,Paraguay,1,0,2,53,47,4,3,0,5,0,7,10,15,17
+Mar 28 2018 - 12:00am,Iceland,Peru,1,3,1,39,61,3,8,0,0,0,9,14,14,8
+Mar 28 2018 - 2:00am,Mexico,Croatia,0,1,0,58,42,4,5,0,0,0,12,12,17,16
+Apr 17 2018 - 11:30pm,Trinidad and Tobago,Panama,0,1,2,58,42,3,6,0,0,0,8,16,18,11
+May 09 2018 - 6:30pm,Saudi Arabia,Algeria,2,0,2,56,44,3,2,0,5,0,8,6,20,19
+May 15 2018 - 5:30pm,Saudi Arabia,Greece,2,0,3,50,50,3,4,0,0,1,10,10,-1,-1
+May 20 2018 - 8:00pm,Jordan,Cyprus,3,0,0,39,61,8,7,0,2,0,12,12,10,13
+May 25 2018 - 12:00pm,Kenya,Swaziland,0,1,1,57,43,8,5,0,0,0,18,8,8,15
+May 25 2018 - 7:00pm,Kuwait,Egypt,1,1,1,50,50,4,3,0,3,0,6,8,6,18
+May 28 2018 - 11:00am,South Korea,Honduras,2,0,0,-1,-1,-1,-1,0,2,0,-1,-1,-1,-1
+May 28 2018 - 12:00pm,Kenya,Equatorial Guinea,1,0,1,48,52,4,2,0,2,0,10,4,14,17
+May 28 2018 - 4:00pm,Bosnia-Herzegovina,Montenegro,0,0,1,63,37,5,0,0,1,0,13,3,12,13
+May 28 2018 - 6:15pm,Turkey,Iran,2,1,1,41,59,7,4,1,1,0,13,11,15,15
+May 28 2018 - 6:45pm,Italy,Saudi Arabia,2,1,0,50,50,6,4,0,0,0,15,8,10,5
+May 28 2018 - 6:45pm,Portugal,Tunisia,2,2,0,57,43,7,5,0,0,0,20,9,6,11
+May 28 2018 - 7:00pm,France,Republic of Ireland,2,0,0,69,31,9,2,0,2,0,18,3,9,18
+May 28 2018 - 10:30pm,USMNT,Bolivia,3,0,2,52,48,8,0,0,1,0,21,6,15,7
+May 29 2018 - 1:00am,Mexico,Wales,0,0,1,65,35,5,0,0,1,0,14,2,8,12
+May 29 2018 - 4:00pm,Azerbaijan,Kyrgyzstan,3,0,1,65,35,13,2,0,0,0,19,7,12,11
+May 29 2018 - 5:00pm,Armenia,Malta,1,1,2,50,50,4,3,1,1,0,10,6,18,17
+May 29 2018 - 11:00pm,Argentina,Haiti,4,0,0,71,29,10,0,0,2,0,17,2,8,12
+May 30 2018 - 1:00am,Peru,Scotland,2,0,0,50,50,7,0,0,0,0,11,4,8,10
+May 30 2018 - 10:25am,Japan,Ghana,0,2,1,56,44,9,3,0,0,0,21,9,15,13
+May 30 2018 - 6:45pm,Austria,Russia,1,0,0,50,50,5,0,0,2,0,10,6,3,10
+May 31 2018 - 2:00pm,Romania,Chile,3,2,3,50,50,6,6,0,1,1,14,13,20,13
+May 31 2018 - 6:00pm,Luxembourg,Senegal,0,0,2,31,69,2,6,0,2,0,4,17,15,13
+May 31 2018 - 6:00pm,Morocco,Ukraine,0,0,1,54,46,4,2,0,2,0,8,9,23,10
+May 31 2018 - 6:45pm,Slovakia,Netherlands,1,1,0,53,47,4,11,0,1,0,9,20,7,18
+Jun 01 2018 - 11:00am,South Korea,Bosnia-Herzegovina,1,3,1,50,50,5,6,0,2,0,9,10,17,13
+Jun 01 2018 - 6:15pm,Tunisia,Turkey,2,2,2,55,45,5,4,0,1,1,7,7,6,10
+Jun 01 2018 - 7:00pm,France,Italy,3,1,0,52,48,6,7,0,1,0,13,16,18,17
+Jun 01 2018 - 7:15pm,Egypt,Colombia,0,0,0,33,67,3,6,0,0,0,7,17,20,9
+Jun 02 2018 - 4:15pm,England,Nigeria,2,1,1,57,43,7,5,0,1,0,15,10,7,12
+Jun 02 2018 - 5:40pm,Austria,Germany,2,1,0,39,61,6,4,0,0,0,11,5,12,8
+Jun 02 2018 - 5:45pm,Sweden,Denmark,0,0,0,49,51,2,4,0,0,0,10,14,11,22
+Jun 02 2018 - 6:15pm,Montenegro,Slovenia,0,2,2,53,47,5,4,0,3,0,10,8,11,19
+Jun 02 2018 - 6:45pm,Belgium,Portugal,0,0,0,47,53,5,4,0,1,0,10,13,13,11
+Jun 02 2018 - 7:08pm,Republic of Ireland,USMNT,2,1,0,57,43,4,5,0,3,0,12,12,7,14
+Jun 02 2018 - 8:00pm,Iceland,Norway,2,3,1,46,54,3,5,0,1,0,9,8,13,11
+Jun 03 2018 - 12:00am,Mexico,Scotland,1,0,0,63,37,12,4,0,0,0,33,4,9,8
+Jun 03 2018 - 12:00am,Honduras,El Salvador,0,1,1,50,50,5,5,0,3,0,13,8,-1,-1
+Jun 03 2018 - 2:00pm,Albania,Ukraine,1,4,0,38,62,4,7,0,0,0,12,18,10,6
+Jun 03 2018 - 2:00pm,Brazil,Croatia,2,0,1,50,50,5,3,0,3,0,18,5,12,14
+Jun 03 2018 - 3:00pm,Andorra,Cape Verde Islands,0,0,4,27,73,2,6,0,1,0,6,11,20,12
+Jun 03 2018 - 5:00pm,Costa Rica,Northern Ireland,3,0,0,58,42,4,2,0,0,0,11,3,10,10
+Jun 03 2018 - 6:00pm,Saudi Arabia,Peru,0,3,1,50,50,2,8,0,2,0,9,17,13,12
+Jun 03 2018 - 7:00pm,Spain,Switzerland,1,1,1,65,35,5,2,0,1,0,18,6,12,11
+Jun 04 2018 - 3:00pm,Armenia,Moldova,0,0,0,50,50,5,3,0,0,0,9,9,15,14
+Jun 04 2018 - 6:00pm,Morocco,Slovakia,2,1,2,60,40,8,2,0,1,0,20,7,14,10
+Jun 04 2018 - 6:00pm,Serbia,Chile,0,1,2,51,49,6,4,0,1,0,12,11,13,15
+Jun 04 2018 - 6:45pm,Italy,Netherlands,1,1,2,44,56,5,6,1,3,0,10,13,8,12
+Jun 05 2018 - 2:00pm,Kazakhstan,Azerbaijan,3,0,2,48,52,5,0,0,1,0,14,4,18,9
+Jun 05 2018 - 4:00pm,Russia,Turkey,1,1,2,44,56,2,3,0,3,0,8,10,15,17
+Jun 05 2018 - 5:30pm,Romania,Finland,2,0,3,41,59,7,3,0,1,0,13,11,15,13
+Jun 05 2018 - 6:00pm,Luxembourg,Georgia,1,0,1,44,56,4,5,0,0,0,7,12,19,16
+Jun 06 2018 - 1:00pm,Nigeria,Czech Republic,0,1,0,56,44,3,4,0,0,0,7,9,9,25
+Jun 06 2018 - 5:00pm,Norway,Panama,1,0,1,40,60,3,3,0,2,0,6,10,20,12
+Jun 06 2018 - 5:00pm,Belarus,Hungary,1,1,1,55,45,6,4,0,2,0,15,6,18,10
+Jun 06 2018 - 6:45pm,Belgium,Egypt,3,0,0,60,40,11,4,0,3,0,21,8,8,7
+Jun 07 2018 - 12:10pm,South Korea,Bolivia,0,0,0,57,43,5,0,0,0,0,9,4,17,8
+Jun 07 2018 - 7:00pm,England,Costa Rica,2,0,0,66,34,7,4,0,2,0,11,10,6,14
+Jun 07 2018 - 7:15pm,Portugal,Algeria,3,0,0,55,45,7,3,0,2,0,19,8,16,6
+Jun 07 2018 - 8:00pm,Iceland,Ghana,2,2,1,41,59,5,6,0,2,0,7,9,10,14
+Jun 07 2018 - 11:10pm,Uruguay,Uzbekistan,3,0,1,55,45,7,3,0,2,1,12,3,10,8
+Jun 08 2018 - 4:00pm,Croatia,Senegal,2,1,1,64,36,4,3,0,5,0,12,11,11,18
+Jun 08 2018 - 5:00pm,Switzerland,Japan,2,0,1,57,43,3,6,0,2,0,12,10,14,16
+Jun 08 2018 - 5:30pm,Germany,Saudi Arabia,2,1,0,58,42,8,4,0,1,0,18,12,12,8
+Jun 08 2018 - 6:45pm,Poland,Chile,2,2,0,44,56,7,6,0,2,0,10,10,7,18
+Jun 09 2018 - 3:00pm,Latvia,Azerbaijan,1,3,2,40,60,6,7,0,1,0,8,13,16,16
+Jun 09 2018 - 3:30pm,Hungary,Australia,1,2,2,46,54,5,3,0,2,0,14,11,7,16
+Jun 09 2018 - 4:00pm,Finland,Belarus,2,0,0,50,50,11,3,0,2,0,17,7,-1,-1
+Jun 09 2018 - 4:00pm,Estonia,Morocco,1,3,2,39,61,5,11,0,1,0,11,18,13,11
+Jun 09 2018 - 4:00pm,Serbia,Bolivia,5,1,1,60,40,11,2,0,1,0,24,7,14,16
+Jun 09 2018 - 5:15pm,Sweden,Peru,0,0,0,46,54,3,3,0,1,0,7,9,12,16
+Jun 09 2018 - 6:00pm,Denmark,Mexico,2,0,0,44,56,4,5,0,1,0,12,15,17,11
+Jun 09 2018 - 6:35pm,Israel,Argentina,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Jun 09 2018 - 6:45pm,Tunisia,Spain,0,1,2,33,67,3,3,0,1,0,6,5,19,11
+Jun 09 2018 - 7:00pm,France,USMNT,1,1,0,72,28,9,3,0,2,0,21,4,4,14
+Jun 10 2018 - 2:00pm,Austria,Brazil,0,3,2,36,64,3,11,0,1,0,7,16,13,7
+Jun 11 2018 - 1:30pm,Senegal,South Korea,2,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Jun 11 2018 - 6:45pm,Belgium,Costa Rica,4,1,0,63,37,10,2,0,1,0,20,3,5,12
+Jun 12 2018 - 1:05pm,Japan,Paraguay,4,2,0,51,49,7,4,0,0,0,12,5,14,14
+Jun 12 2018 - 4:00pm,Poland,Lithuania,4,0,1,57,43,8,3,0,1,0,15,7,10,12
+Aug 04 2018 - 2:00pm,Palestine,Iraq,0,3,0,51,49,4,5,0,2,0,8,7,10,4
+Aug 16 2018 - 12:00am,Guatemala,Cuba,3,0,2,58,42,8,3,0,1,0,10,6,13,12
+Aug 18 2018 - 4:00pm,Andorra,UAE,0,0,0,27,73,0,2,0,0,0,4,2,15,13
+Aug 19 2018 - 2:00am,Guatemala,Cuba,1,0,2,50,50,5,2,0,1,0,8,9,19,14
+Aug 21 2018 - 12:00am,Barbados,Jamaica,2,2,2,37,63,4,7,0,0,0,6,18,13,8
+Aug 26 2018 - 11:00pm,Barbados,Cuba,0,0,4,50,50,3,3,0,3,0,6,8,24,22
+Aug 30 2018 - 12:00am,Barbados,Cuba,0,2,4,46,54,3,3,1,2,1,6,8,16,18
+Sep 05 2018 - 6:45pm,Slovakia,Denmark,3,0,0,66,34,12,2,0,0,0,21,5,7,13
+Sep 06 2018 - 2:00pm,Bahrain,Philippines,1,1,2,50,50,3,2,0,3,0,14,4,20,18
+Sep 06 2018 - 2:00pm,Kyrgyzstan,Palestine,1,1,1,50,50,7,9,0,1,1,18,15,10,7
+Sep 06 2018 - 3:00pm,Uzbekistan,Syria,1,1,1,45,55,7,10,0,1,0,11,25,16,6
+Sep 06 2018 - 4:00pm,Jordan,Lebanon,0,1,3,59,41,6,3,1,2,0,11,8,18,11
+Sep 06 2018 - 6:45pm,Portugal,Croatia,1,1,1,52,48,5,4,0,2,0,21,6,6,9
+Sep 06 2018 - 6:45pm,Austria,Sweden,2,0,1,53,47,5,4,0,0,0,12,6,16,12
+Sep 06 2018 - 6:45pm,Netherlands,Peru,2,1,0,55,45,7,5,0,2,0,19,10,18,18
+Sep 07 2018 - 11:00am,South Korea,Costa Rica,2,0,0,50,50,3,0,0,2,0,7,3,-1,-1
+Sep 07 2018 - 4:00pm,Qatar,China,1,0,2,49,51,4,0,0,1,0,14,3,10,15
+Sep 07 2018 - 6:45pm,Scotland,Belgium,0,4,0,43,57,6,8,0,0,0,10,16,7,7
+Sep 08 2018 - 12:00am,USMNT,Brazil,0,2,0,36,64,0,4,0,0,0,11,14,5,7
+Sep 08 2018 - 12:00am,Venezuela,Colombia,1,2,0,32,68,5,8,0,0,0,9,18,13,14
+Sep 08 2018 - 12:00am,Ecuador,Jamaica,2,0,0,67,33,6,3,0,2,0,12,6,10,11
+Sep 08 2018 - 2:08am,Mexico,Uruguay,1,4,0,62,38,8,8,0,2,0,12,14,13,13
+Sep 08 2018 - 3:00am,Argentina,Guatemala,3,0,3,63,37,8,3,0,3,0,15,3,21,12
+Sep 09 2018 - 4:00pm,Lebanon,Oman,0,0,0,48,52,3,8,0,0,0,7,15,9,12
+Sep 09 2018 - 6:45pm,Germany,Peru,2,1,0,64,36,7,6,0,1,0,13,10,7,6
+Sep 10 2018 - 2:00pm,Kyrgyzstan,Syria,2,1,2,42,58,10,10,0,7,2,18,19,10,6
+Sep 10 2018 - 3:30pm,Kuwait,Iraq,2,2,1,50,50,5,9,0,2,0,6,18,8,25
+Sep 10 2018 - 4:00pm,Russia,Czech Republic,5,1,0,51,49,7,5,0,2,0,15,17,9,10
+Sep 10 2018 - 4:00pm,Bahrain,China,0,0,1,50,50,2,5,0,2,0,5,8,15,15
+Sep 11 2018 - 10:20am,Japan,Costa Rica,3,0,0,49,51,11,4,0,2,0,24,6,10,15
+Sep 11 2018 - 11:00am,South Korea,Chile,0,0,2,50,50,4,3,0,1,0,8,10,17,7
+Sep 11 2018 - 11:30am,Singapore,Fiji,2,0,2,42,58,5,2,0,3,1,6,6,11,25
+Sep 11 2018 - 12:00pm,Kenya,Malawi,1,0,1,52,48,5,4,0,0,0,18,8,18,8
+Sep 11 2018 - 3:00pm,Uzbekistan,Iran,0,1,1,43,57,3,5,0,1,0,6,13,11,20
+Sep 11 2018 - 4:00pm,Qatar,Palestine,3,0,0,58,42,7,6,0,0,0,15,9,9,12
+Sep 11 2018 - 4:00pm,Jordan,Oman,0,0,0,50,50,0,3,0,0,0,3,6,10,13
+Sep 11 2018 - 6:45pm,Poland,Republic of Ireland,1,1,0,59,41,6,3,0,0,0,14,8,10,5
+Sep 11 2018 - 6:45pm,Northern Ireland,Israel,3,0,0,53,47,8,3,0,1,0,16,6,9,6
+Sep 11 2018 - 7:00pm,England,Switzerland,1,0,1,48,52,6,3,0,1,0,13,11,13,15
+Sep 12 2018 - 12:00am,Colombia,Argentina,0,0,4,52,48,3,6,0,3,0,9,13,16,12
+Sep 12 2018 - 12:30am,USMNT,Mexico,1,0,3,47,53,4,5,0,1,1,13,13,11,11
+Sep 12 2018 - 12:30am,Brazil,El Salvador,5,0,2,62,38,12,0,0,2,0,19,5,9,5
+Sep 12 2018 - 1:00am,Panama,Venezuela,0,2,2,51,49,5,9,0,3,0,7,13,14,23
+Sep 12 2018 - 1:05am,Ecuador,Guatemala,2,0,3,55,45,6,6,0,0,0,13,8,19,10
+Oct 10 2018 - 6:00pm,Albania,Jordan,0,0,2,67,33,2,0,0,4,0,11,3,14,23
+Oct 10 2018 - 6:45pm,Italy,Ukraine,1,1,2,63,37,9,6,0,2,0,20,11,11,12
+Oct 11 2018 - 12:00pm,Hong Kong,Thailand,0,1,3,51,49,7,3,0,3,0,17,10,12,11
+Oct 11 2018 - 4:00pm,Kuwait,Lebanon,1,0,2,59,41,4,2,0,2,0,12,7,10,11
+Oct 11 2018 - 4:15pm,Bahrain,Syria,0,1,0,50,50,3,4,0,0,0,8,13,12,17
+Oct 11 2018 - 5:30pm,Turkey,Bosnia-Herzegovina,0,0,0,60,40,3,4,0,1,0,18,13,10,11
+Oct 11 2018 - 6:00pm,Iraq,Argentina,0,4,2,27,73,0,11,0,0,0,5,15,16,7
+Oct 11 2018 - 6:45pm,Wales,Spain,1,4,0,31,69,4,8,0,0,0,9,13,10,8
+Oct 11 2018 - 7:00pm,France,Iceland,2,2,1,63,37,8,11,0,5,0,22,18,6,9
+Oct 11 2018 - 11:30pm,USMNT,Colombia,2,4,2,41,59,3,8,0,1,0,4,15,9,13
+Oct 12 2018 - 1:30am,Mexico,Costa Rica,3,2,2,55,45,7,4,0,3,0,12,7,16,15
+Oct 12 2018 - 10:35am,Japan,Panama,3,0,0,48,52,7,3,0,0,0,16,8,21,8
+Oct 12 2018 - 11:00am,South Korea,Uruguay,2,1,0,50,50,5,3,0,3,0,10,15,-1,-1
+Oct 12 2018 - 11:30am,Singapore,Mongolia,2,0,2,63,37,12,2,0,1,0,23,4,14,17
+Oct 12 2018 - 3:30pm,Qatar,Ecuador,4,3,1,48,52,8,7,0,3,2,13,9,11,10
+Oct 12 2018 - 6:00pm,Saudi Arabia,Brazil,0,2,1,41,59,0,8,1,0,0,9,18,12,12
+Oct 13 2018 - 12:30am,Peru,Chile,3,0,0,51,49,8,4,0,0,0,14,8,12,15
+Oct 13 2018 - 2:00pm,Uzbekistan,North Korea,2,0,0,60,40,10,4,0,0,0,20,4,6,13
+Oct 13 2018 - 3:30pm,Philippines,Oman,1,1,0,50,50,3,9,0,0,0,5,20,4,13
+Oct 14 2018 - 4:00pm,Scotland,Portugal,1,3,0,50,50,3,8,0,1,0,12,14,8,11
+Oct 15 2018 - 4:30pm,Kuwait,Australia,0,4,0,47,53,4,12,0,1,0,7,19,3,18
+Oct 15 2018 - 6:00pm,Saudi Arabia,Iraq,1,1,0,59,41,3,7,0,2,0,6,12,14,19
+Oct 15 2018 - 6:45pm,Croatia,Jordan,2,1,3,57,43,7,4,0,2,0,17,8,25,15
+Oct 16 2018 - 10:35am,Japan,Uruguay,4,3,1,48,52,10,6,0,1,0,18,10,10,19
+Oct 16 2018 - 11:00am,South Korea,Panama,2,2,2,50,50,6,5,0,0,0,12,7,-1,-1
+Oct 16 2018 - 2:00pm,Uzbekistan,Qatar,2,0,1,48,52,6,3,0,2,0,11,6,10,10
+Oct 16 2018 - 3:00pm,UAE,Venezuela,0,2,1,49,51,3,6,0,2,0,10,8,9,22
+Oct 16 2018 - 3:30pm,Oman,Ecuador,0,0,1,37,63,5,5,0,1,0,5,14,9,18
+Oct 16 2018 - 4:00pm,Iran,Bolivia,2,1,1,52,48,5,4,0,0,0,20,6,15,16
+Oct 16 2018 - 6:00pm,Argentina,Brazil,0,1,5,62,38,5,5,0,2,0,16,16,15,21
+Oct 16 2018 - 6:45pm,Denmark,Austria,2,0,0,52,48,9,3,0,2,0,14,12,9,10
+Oct 16 2018 - 6:45pm,Sweden,Slovakia,1,1,1,39,61,7,7,0,1,0,18,22,13,13
+Oct 16 2018 - 6:45pm,Belgium,Netherlands,1,1,1,52,48,5,5,0,2,0,16,14,12,10
+Oct 17 2018 - 12:00am,Colombia,Costa Rica,3,1,2,57,43,9,2,0,2,0,23,4,11,15
+Oct 17 2018 - 12:00am,USMNT,Peru,1,1,1,31,69,2,2,0,2,0,6,16,9,10
+Oct 17 2018 - 1:45am,Mexico,Chile,0,1,2,49,51,6,5,0,2,0,15,14,11,19
+Nov 14 2018 - 6:00pm,Switzerland,Qatar,0,1,0,64,36,5,3,0,1,0,18,8,12,4
+Nov 15 2018 - 5:00pm,Poland,Czech Republic,0,1,0,57,43,8,6,0,1,0,19,14,13,17
+Nov 15 2018 - 6:15pm,Israel,Guatemala,7,0,3,63,37,11,2,0,0,0,13,8,7,5
+Nov 15 2018 - 7:45pm,Germany,Russia,3,0,0,67,33,8,0,0,1,0,13,9,7,9
+Nov 15 2018 - 7:45pm,Republic of Ireland,Northern Ireland,0,0,2,41,59,3,4,0,1,0,9,13,11,15
+Nov 15 2018 - 8:00pm,England,USMNT,3,0,0,58,42,9,3,0,0,0,17,11,8,7
+Nov 16 2018 - 1:30am,Peru,Ecuador,0,2,0,50,50,3,5,0,2,0,5,6,9,25
+Nov 16 2018 - 10:30am,Japan,Venezuela,1,1,1,50,50,6,4,0,1,0,10,8,-1,-1
+Nov 16 2018 - 4:30pm,Saudi Arabia,Yemen,1,0,0,69,31,7,0,0,0,0,19,5,9,17
+Nov 16 2018 - 8:00pm,Brazil,Uruguay,1,0,2,64,36,6,5,0,6,0,14,16,15,23
+Nov 17 2018 - 12:00am,Argentina,Mexico,2,0,1,47,53,5,2,0,1,0,16,4,20,17
+Nov 17 2018 - 12:15am,Chile,Costa Rica,2,3,4,60,40,9,5,0,3,0,22,13,16,16
+Nov 17 2018 - 2:00am,Honduras,Panama,1,0,0,50,50,2,3,0,2,0,7,8,19,14
+Nov 17 2018 - 8:50am,Australia,South Korea,1,1,2,52,48,13,4,0,1,0,20,7,16,13
+Nov 17 2018 - 5:00pm,Jordan,India,2,1,0,66,34,6,2,0,1,0,10,3,11,6
+Nov 18 2018 - 7:45pm,Spain,Bosnia-Herzegovina,1,0,2,66,34,6,3,0,1,0,21,4,11,8
+Nov 19 2018 - 6:30pm,Qatar,Iceland,2,2,1,49,51,4,4,0,0,0,10,11,16,8
+Nov 20 2018 - 8:30am,Australia,Lebanon,3,0,1,60,40,7,0,0,1,0,22,8,4,4
+Nov 20 2018 - 10:00am,Uzbekistan,South Korea,0,4,0,34,66,5,11,0,0,0,7,16,10,10
+Nov 20 2018 - 2:25pm,UAE,Yemen,2,0,0,50,50,7,5,0,1,0,11,9,20,16
+Nov 20 2018 - 5:00pm,Tunisia,Morocco,0,1,1,50,50,6,3,0,1,0,14,11,13,31
+Nov 20 2018 - 5:00pm,Jordan,Saudi Arabia,1,1,3,50,50,3,4,0,2,0,11,8,18,13
+Nov 20 2018 - 5:30pm,Turkey,Ukraine,0,0,2,50,50,3,6,0,2,0,12,15,21,13
+Nov 20 2018 - 7:00pm,Albania,Wales,1,0,2,42,58,3,4,0,4,0,7,18,21,11
+Nov 20 2018 - 7:30pm,Brazil,Cameroon,1,0,0,61,39,8,2,0,1,0,26,6,13,13
+Nov 20 2018 - 7:45pm,Italy,USMNT,1,0,2,67,33,7,3,0,3,0,18,6,17,20
+Nov 20 2018 - 8:00pm,France,Uruguay,1,0,1,44,56,6,5,0,2,0,15,6,17,17
+Nov 21 2018 - 12:00am,Argentina,Mexico,2,0,3,47,53,4,3,0,2,0,8,9,18,9
+Nov 21 2018 - 12:15am,Chile,Honduras,4,1,2,61,39,10,7,0,2,0,24,17,14,16
+Nov 21 2018 - 12:30am,Peru,Costa Rica,2,3,2,50,50,9,5,0,3,0,14,8,17,14
+Nov 21 2018 - 1:00am,Panama,Ecuador,1,2,2,51,49,2,3,0,0,0,4,5,8,17
+Dec 31 2018 - 4:00pm,South Korea,Saudi Arabia,0,0,0,49,51,2,3,0,1,0,5,5,19,7

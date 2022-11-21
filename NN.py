@@ -10,20 +10,20 @@ from collections import OrderedDict
 class NN:
     def __init__(self,input_data_posi,input_data_nega,country):
 
-        network = TwoLayerNet(input_size=4, hidden_size=10, output_size=15)
+        network = TwoLayerNet(input_size=3, hidden_size=10, output_size=15)
         input_data_po=[]
         out_data_po=[]
         input_data_ne=[]
         out_data_ne=[]
     
         lr = 0.001
-        epochs = 50
+        epochs = 10
 
         cost_list=[[0]*1000 for _ in range(10)]
         correct=0
         sum=0
         self.params={}
-        self.params['W1']=np.random.rand(4,10)      # 가중치와 편향 초기화
+        self.params['W1']=np.random.rand(3,10)      # 가중치와 편향 초기화
         self.params['b1']=np.zeros(10)
         self.params['W2']=np.random.rand(10,15)  
         self.params['b2']=np.zeros(15)
@@ -37,6 +37,7 @@ class NN:
         #float 형변환
         input_data_po=np.array(input_data_po,np.float32)
         input_data_po=self.nomalize(input_data_po)
+        print(len(input_data_po))
         out_data_po=list(map(int,out_data_po))  
 
         #output one hot encoding
@@ -289,18 +290,17 @@ class Affine:
         x = x.reshape(DATE_SIZE, -1)
         self.x = x	# 역전파 때 가중치에 곱하기 위해 저장
         
-        print(self.x.shape)
-        print(out.shape)
+        # print(self.x.shape)
+        # print(out.shape)
         return out
         
     def backward(self, dout):
         dx = np.dot(dout, self.W.T)
 
-        print(dout.shape)
-        print(self.W.T.shape)
-        print(dx.shape)
-        # print(self.x.shape)
-        print(self.x.T.shape)
+        # print(dout.shape)
+        # print(self.W.T.shape)
+        # print(dx.shape)
+        # print(self.x.T.shape)
         self.dw = np.dot(self.x, dout.reshape(dout.shape[0],-1).T)
         self.db = np.sum(dout, axis=0)
         

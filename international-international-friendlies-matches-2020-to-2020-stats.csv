@@ -1,0 +1,71 @@
+date_GMT,home_team_name,away_team_name,home_team_goal_count,away_team_goal_count,away_team_possession,home_team_shots_on_target,away_team_shots_on_target,home_team_shots,away_team_shots,home_team_yellow_cards,home_team_red_cards,away_team_yellow_cards,away_team_red_cards,home_team_fouls,away_team_fouls
+Jan 20 2020 - 12:00am,Iceland,El Salvador,1,0,50,4,3,9,16,2,0,1,0,13,13
+Feb 26 2020 - 3:00pm,Bulgaria,Belarus,0,1,50,9,3,15,7,0,0,0,0,8,16
+Sep 03 2020 - 2:00pm,Uzbekistan,Tajikistan,2,1,50,4,0,8,2,1,0,2,0,19,13
+Oct 01 2020 - 2:00am,Mexico,Guatemala,3,0,50,5,3,13,4,0,0,0,0,10,11
+Oct 07 2020 - 1:00am,Nicaragua,Guatemala,0,0,57,2,4,8,13,1,0,0,0,11,14
+Oct 07 2020 - 4:00pm,Estonia,Lithuania,1,3,55,6,7,12,14,2,0,0,0,17,10
+Oct 07 2020 - 4:00pm,Montenegro,Latvia,1,1,35,4,5,9,6,0,0,4,0,12,23
+Oct 07 2020 - 4:00pm,Denmark,Faroe Islands,4,0,32,11,3,25,6,1,0,3,0,9,12
+Oct 07 2020 - 4:00pm,Malta,Gibraltar,2,0,41,4,3,6,6,3,0,3,0,14,14
+Oct 07 2020 - 4:00pm,Cyprus,Czech Republic,1,2,63,2,6,4,15,0,0,0,0,9,17
+Oct 07 2020 - 6:15pm,Luxembourg,Liechtenstein,1,2,28,8,3,20,10,2,0,1,0,14,8
+Oct 07 2020 - 6:30pm,Austria,Greece,2,1,41,5,2,16,5,2,0,3,0,12,7
+Oct 07 2020 - 6:45pm,Poland,Finland,5,1,48,12,6,18,7,0,0,0,0,11,13
+Oct 07 2020 - 6:45pm,Slovenia,San Marino,4,0,27,11,0,20,3,0,0,0,0,14,12
+Oct 07 2020 - 6:45pm,Germany,Turkey,3,3,39,8,7,15,10,3,0,1,0,14,10
+Oct 07 2020 - 6:45pm,Switzerland,Croatia,1,2,55,6,4,9,9,1,0,2,0,9,14
+Oct 07 2020 - 6:45pm,Italy,Moldova,6,0,31,11,2,20,6,0,0,2,0,11,13
+Oct 07 2020 - 6:45pm,Netherlands,Mexico,0,1,50,4,4,7,9,3,0,3,0,17,19
+Oct 07 2020 - 6:45pm,Portugal,Spain,0,0,64,2,7,12,17,1,0,1,0,11,12
+Oct 07 2020 - 7:10pm,France,Ukraine,7,1,42,9,6,20,9,0,0,3,0,6,10
+Oct 08 2020 - 1:00pm,Uzbekistan,Iran,1,2,44,3,6,9,10,1,0,1,0,14,22
+Oct 08 2020 - 4:00pm,South Africa,Namibia,1,1,39,6,3,10,8,1,0,2,0,9,9
+Oct 08 2020 - 4:15pm,Russia,Sweden,1,2,40,4,4,11,7,1,0,1,0,17,9
+Oct 08 2020 - 6:45pm,Belgium,Ivory Coast,1,1,45,2,3,7,7,3,0,1,0,17,10
+Oct 08 2020 - 7:00pm,England,Wales,3,0,45,7,3,9,8,0,0,3,0,13,16
+Oct 09 2020 - 1:00pm,Kenya,Zambia,2,1,57,6,5,9,10,1,0,2,0,18,16
+Oct 09 2020 - 5:00pm,Mali,Ghana,3,0,47,5,0,6,2,0,0,1,0,11,15
+Oct 09 2020 - 6:00pm,Morocco,Senegal,3,1,54,4,3,4,5,1,0,1,0,15,12
+Oct 09 2020 - 6:30pm,Nigeria,Algeria,0,1,60,3,6,10,10,2,0,1,0,11,19
+Oct 10 2020 - 10:00pm,Honduras,Nicaragua,1,1,50,5,4,20,15,2,0,0,1,15,8
+Oct 11 2020 - 1:00pm,South Africa,Zambia,1,2,50,6,5,9,10,3,0,1,0,12,12
+Oct 12 2020 - 3:30pm,Ghana,Qatar,5,1,50,13,3,18,9,1,0,1,0,18,11
+Oct 13 2020 - 2:45pm,Japan,Ivory Coast,1,0,53,6,0,13,7,0,0,0,0,16,16
+Oct 13 2020 - 6:00pm,Morocco,Congo DR,1,1,48,3,3,12,6,1,0,1,0,13,14
+Oct 13 2020 - 6:30pm,Nigeria,Tunisia,1,1,56,2,5,8,8,2,0,5,0,18,10
+Oct 13 2020 - 7:00pm,Mexico,Algeria,2,2,40,4,5,13,10,3,0,3,1,12,15
+Nov 11 2020 - 2:45pm,Greece,Cyprus,2,1,41,10,3,21,11,1,0,2,0,16,11
+Nov 11 2020 - 3:00pm,Albania,Kosovo,2,1,53,4,3,9,8,2,0,0,0,16,21
+Nov 11 2020 - 5:00pm,Malta,Liechtenstein,3,0,46,6,2,8,5,2,0,3,0,16,11
+Nov 11 2020 - 5:00pm,Montenegro,Kazakhstan,0,0,42,4,4,11,6,0,0,3,0,9,20
+Nov 11 2020 - 5:00pm,Lithuania,Faroe Islands,2,1,49,4,4,9,8,0,0,2,0,16,16
+Nov 11 2020 - 5:00pm,Romania,Belarus,5,3,41,9,9,20,11,2,0,2,0,17,15
+Nov 11 2020 - 5:30pm,Bulgaria,Gibraltar,3,0,25,6,2,12,3,0,0,2,0,10,12
+Nov 11 2020 - 5:45pm,Turkey,Croatia,3,3,54,6,5,12,10,1,0,1,0,13,14
+Nov 11 2020 - 6:30pm,Denmark,Sweden,2,0,41,5,2,13,6,2,0,2,0,10,16
+Nov 11 2020 - 7:30pm,Luxembourg,Austria,0,3,55,0,8,2,15,3,0,2,0,11,10
+Nov 11 2020 - 7:45pm,Netherlands,Spain,1,1,51,5,5,7,12,1,0,2,0,15,13
+Nov 11 2020 - 7:45pm,Germany,Czech Republic,1,0,45,9,6,15,15,0,0,1,0,5,13
+Nov 11 2020 - 7:45pm,Belgium,Switzerland,2,1,55,3,5,7,10,1,0,0,0,15,14
+Nov 11 2020 - 7:45pm,Italy,Estonia,4,0,35,8,0,14,7,1,0,2,0,9,8
+Nov 11 2020 - 7:45pm,Portugal,Andorra,7,0,32,16,0,26,0,0,0,0,0,7,9
+Nov 11 2020 - 7:45pm,Slovenia,Azerbaijan,0,0,42,6,0,7,2,0,0,2,0,14,19
+Nov 11 2020 - 7:45pm,Poland,Ukraine,2,0,58,5,8,9,15,1,0,1,0,16,11
+Nov 11 2020 - 8:10pm,France,Finland,0,2,26,4,3,19,6,0,0,0,0,13,6
+Nov 12 2020 - 2:00pm,UAE,Tajikistan,3,2,50,10,4,21,4,0,0,3,0,9,11
+Nov 12 2020 - 5:00pm,Moldova,Russia,0,0,64,0,0,2,9,2,0,1,0,13,12
+Nov 12 2020 - 5:00pm,Bosnia-Herzegovina,Iran,0,2,44,2,4,7,4,2,0,1,0,9,16
+Nov 12 2020 - 7:45pm,Wales,USMNT,0,0,66,3,3,5,7,0,0,3,0,7,21
+Nov 12 2020 - 8:00pm,England,Republic of Ireland,3,0,37,6,3,21,5,0,0,0,0,11,11
+Nov 13 2020 - 2:15pm,Japan,Panama,1,0,49,7,5,14,11,2,0,2,1,-1,-1
+Nov 13 2020 - 5:00pm,Costa Rica,Qatar,1,1,50,6,3,9,7,2,0,1,0,15,10
+Nov 14 2020 - 4:30pm,Saudi Arabia,Jamaica,3,0,48,6,2,7,4,2,0,3,0,12,9
+Nov 14 2020 - 8:00pm,Mexico,South Korea,3,2,50,5,3,8,3,1,0,2,0,-1,-1
+Nov 15 2020 - 5:00pm,Guatemala,Honduras,2,1,54,3,3,7,8,2,0,1,0,14,9
+Nov 16 2020 - 2:00pm,UAE,Bahrain,1,3,50,6,6,12,14,2,0,2,0,12,21
+Nov 16 2020 - 7:45pm,USMNT,Panama,6,2,43,9,4,16,9,2,0,4,0,18,15
+Nov 17 2020 - 1:00pm,South Korea,Qatar,2,1,48,6,4,9,12,3,0,2,0,14,14
+Nov 17 2020 - 4:30pm,Saudi Arabia,Jamaica,1,2,50,3,9,6,11,5,0,5,0,19,13
+Nov 17 2020 - 8:00pm,Japan,Mexico,0,2,50,5,5,9,10,4,0,3,0,16,10
+Dec 10 2020 - 12:30am,USMNT,El Salvador,6,0,50,5,4,13,4,0,0,1,0,12,17
