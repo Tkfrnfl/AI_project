@@ -24,7 +24,7 @@ class NN:
         correct=0
         sum=0
         self.params={}
-        self.params['w1']=np.random.rand(4,15)      # 가중치와 편향 초기화
+        self.params['w1']=np.random.rand(3,15)      # 가중치와 편향 초기화
         self.params['b1']=np.zeros(15)
         self.params['w2']=np.random.rand(15,15)  
         self.params['b2']=np.zeros(15)
@@ -112,7 +112,7 @@ class NN:
             t=t.reshape(1,t.size)
             y=y.reshape(1,y.size)
         NN.plt_X.append(-np.sum(t*np.log(y+delta)) )
-        #print(-np.sum(t*np.log(y+delta))    )   
+        print(-np.sum(t*np.log(y+delta))    )   
         return -np.sum(t*np.log(y+delta))    
 
     def numerical_gradient_no_batch(f,x):

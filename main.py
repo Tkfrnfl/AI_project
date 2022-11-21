@@ -18,6 +18,24 @@ data_list=[]
 for i in csv_data:
     data_list.append(i)
 
+f=open('./international-international-friendlies-matches-2018-to-2018-stats.csv',"r")
+csv_data=csv.reader(f)
+data_list2=[]
+for i in csv_data:
+    data_list2.append(i)    
+f=open('./international-international-friendlies-matches-2019-to-2019-stats.csv',"r")
+csv_data=csv.reader(f)
+for i in csv_data:
+    data_list2.append(i)     
+f=open('./international-international-friendlies-matches-2020-to-2020-stats.csv',"r")
+csv_data=csv.reader(f)
+for i in csv_data:
+    data_list2.append(i)   
+f=open('./international-international-friendlies-matches-2021-to-2021-stats.csv',"r")
+csv_data=csv.reader(f)
+for i in csv_data:
+    data_list2.append(i)   
+
 # country_list=np.zeros(shape=(0))
 # #country_goal=tf.placeholder(tf.float32,[None])
 
@@ -42,8 +60,8 @@ for i,val in enumerate(data_list):          #데이터 가공
         data_list_h=[]                          #긍정 데이터 가공
         data_list_a=[]
         if val[5] !="0":                        #점유율 데이터가 0 아닌경우만 저장
-            data_list_h.append([val[1],val[3],val[5],val[7],val[9],val[17]])
-            data_list_a.append([val[2],val[4],val[6],val[8],val[10],val[18]])
+            data_list_h.append([val[1],val[3],val[5],val[7],val[9]])
+            data_list_a.append([val[2],val[4],val[6],val[8],val[10]])
             country_result_posi.append(data_list_h)
             country_result_posi.append(data_list_a)
 
@@ -59,6 +77,20 @@ for i,val in enumerate(data_list):          #데이터 가공
 #     for i,val in enumerate(country_result_posi):
 #         if val_j in val[0]:
 #             print(val[0])
+
+for i,val in enumerate(data_list2):          #데이터 가공
+    if i !=0:
+        if val[1]not in country_list:
+            country_list.append(val[1])
+        if val[2] not in country_list:
+            country_list.append(val[2])
+        data_list_h=[]                          #긍정 데이터 가공
+        data_list_a=[]
+        if val[3] !="-1" and val[6] !="-1"and val[8] !="-1"and val[13] !="-1":                        #점유율 데이터가 0 아닌경우만 저장
+            data_list_h.append([val[1],val[3],val[6],val[8],val[13]])
+            data_list_a.append([val[2],val[4],val[7],val[9],val[14]])
+            country_result_posi.append(data_list_h)
+            country_result_posi.append(data_list_a)
 
 NN(country_result_posi,country_result_nega,"Denmark")
 
