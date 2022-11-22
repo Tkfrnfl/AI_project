@@ -92,7 +92,7 @@ for i,val in enumerate(data_list2):          #데이터 가공
 #         if val_j in val[0]:
 #             print(val[0])
 
-NN(country_result_posi,country_result_nega,"South Korea")
+NN(country_result_posi,country_result_nega,"Japan")
 
 
 

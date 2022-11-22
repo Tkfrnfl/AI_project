@@ -1,147 +1,147 @@
-date_GMT,home_team_name,away_team_name,home_team_goal_count,away_team_goal_count,home_team_possession,away_team_possession,home_team_shots_on_target,away_team_shots_on_target,home_team_shots,away_team_shots,home_team_yellow_cards,home_team_red_cards,away_team_yellow_cards,away_team_red_cards,home_team_fouls,away_team_fouls
-Jan 28 2019 - 1:00am,USMNT,Panama,3,0,61,39,7,4,16,7,0,0,0,0,13,3
-Feb 02 2019 - 8:30pm,USMNT,Costa Rica,2,0,54,46,7,2,13,7,1,0,1,0,16,17
-Mar 09 2019 - 11:30am,Cambodia,Bangladesh,0,1,50,50,2,6,5,13,1,0,1,0,12,10
-Mar 20 2019 - 7:45pm,Wales,Trinidad and Tobago,1,0,71,29,7,3,21,4,1,0,1,0,8,12
+date_GMT,home_team_name,away_team_name,home_team_goal_count,away_team_goal_count,home_team_possession,away_team_possession,home_team_shots_on_target,away_team_shots_on_target,home_team_shots,away_team_shots,home_team_yellow_cards,away_team_yellow_cards,home_team_red_cards,away_team_red_cards,home_team_fouls,away_team_fouls
+Jan 28 2019 - 1:00am,United States,Panama,3,0,61,39,7,4,16,7,0,0,0,0,13,3
+Feb 02 2019 - 8:30pm,United States,Costa Rica,2,0,54,46,7,2,13,7,1,1,0,0,16,17
+Mar 09 2019 - 11:30am,Cambodia,Bangladesh,0,1,50,50,2,6,5,13,1,1,0,0,12,10
+Mar 20 2019 - 7:45pm,Wales,Trinidad and Tobago,1,0,71,29,7,3,21,4,1,1,0,0,8,12
 Mar 20 2019 - 7:45pm,Germany,Serbia,1,1,58,42,10,2,24,8,0,0,0,1,6,11
-Mar 21 2019 - 1:45pm,UAE,Saudi Arabia,2,1,50,50,8,6,9,12,0,0,1,0,21,19
-Mar 21 2019 - 6:00pm,Kosovo,Denmark,2,2,42,58,5,4,7,6,1,0,2,0,12,12
-Mar 22 2019 - 12:00am,USMNT,Ecuador,1,0,58,42,3,0,6,2,1,0,1,0,8,12
+Mar 21 2019 - 1:45pm,UAE,Saudi Arabia,2,1,50,50,8,6,9,12,0,1,0,0,21,19
+Mar 21 2019 - 6:00pm,Kosovo,Denmark,2,2,42,58,5,4,7,6,1,2,0,0,12,12
+Mar 22 2019 - 12:00am,United States,Ecuador,1,0,58,42,3,0,6,2,1,1,0,0,8,12
 Mar 22 2019 - 10:20am,Japan,Colombia,0,1,45,55,0,2,9,5,1,0,0,0,16,14
-Mar 22 2019 - 11:00am,South Korea,Bolivia,1,0,50,50,6,2,19,4,2,0,1,0,-1,-1
-Mar 22 2019 - 8:00pm,Argentina,Venezuela,1,3,61,39,5,5,12,9,2,0,6,0,15,18
+Mar 22 2019 - 11:00am,South Korea,Bolivia,1,0,50,50,6,2,19,4,2,1,0,0,-1,-1
+Mar 22 2019 - 8:00pm,Argentina,Venezuela,1,3,61,39,5,5,12,9,2,6,0,0,15,18
 Mar 23 2019 - 12:00am,Peru,Paraguay,1,0,48,52,5,3,13,14,2,0,0,0,15,18
-Mar 23 2019 - 2:15am,Mexico,Chile,3,1,46,54,4,3,10,12,3,0,2,0,14,13
+Mar 23 2019 - 2:15am,Mexico,Chile,3,1,46,54,4,3,10,12,3,2,0,0,14,13
 Mar 23 2019 - 3:00pm,Jordan,Syria,0,1,50,50,4,3,6,9,2,0,0,0,10,12
-Mar 23 2019 - 5:00pm,Brazil,Panama,1,1,71,29,5,3,18,7,1,0,2,0,12,20
+Mar 23 2019 - 5:00pm,Brazil,Panama,1,1,71,29,5,3,18,7,1,2,0,0,12,20
 Mar 24 2019 - 10:00am,Taiwan,Solomon Islands,0,1,51,49,6,7,11,10,0,0,0,0,11,10
-Mar 25 2019 - 2:00pm,Azerbaijan,Lithuania,0,0,55,45,8,5,15,8,2,0,3,0,18,21
+Mar 25 2019 - 2:00pm,Azerbaijan,Lithuania,0,0,55,45,8,5,15,8,2,3,0,0,18,21
 Mar 26 2019 - 10:30am,Japan,Bolivia,1,0,53,47,7,0,11,4,-1,-1,-1,-1,-1,-1
-Mar 26 2019 - 11:00am,South Korea,Colombia,2,1,50,50,4,10,8,17,1,0,3,0,-1,-1
-Mar 26 2019 - 5:00pm,Nigeria,Egypt,1,0,50,50,4,2,7,6,1,0,2,0,-1,-1
-Mar 26 2019 - 5:00pm,Ivory Coast,Liberia,1,0,50,50,2,3,5,6,1,0,2,0,-1,-1
-Mar 26 2019 - 7:00pm,Morocco,Argentina,0,1,50,50,2,3,4,5,4,0,2,0,19,25
-Mar 26 2019 - 7:45pm,Algeria,Tunisia,1,0,56,44,3,0,8,10,2,0,2,0,15,17
+Mar 26 2019 - 11:00am,South Korea,Colombia,2,1,50,50,4,10,8,17,1,3,0,0,-1,-1
+Mar 26 2019 - 5:00pm,Nigeria,Egypt,1,0,50,50,4,2,7,6,1,2,0,0,-1,-1
+Mar 26 2019 - 5:00pm,Ivory Coast,Liberia,1,0,50,50,2,3,5,6,1,2,0,0,-1,-1
+Mar 26 2019 - 7:00pm,Morocco,Argentina,0,1,50,50,2,3,4,5,4,2,0,0,19,25
+Mar 26 2019 - 7:45pm,Algeria,Tunisia,1,0,56,44,3,0,8,10,2,2,0,0,15,17
 Mar 26 2019 - 7:45pm,Gibraltar,Estonia,0,1,40,60,4,7,6,12,0,0,0,0,11,14
-Mar 26 2019 - 7:45pm,Czech Republic,Brazil,1,3,41,59,5,7,12,11,0,0,2,0,15,10
-Mar 26 2019 - 11:55pm,USMNT,Chile,1,1,33,67,5,5,10,14,1,0,3,0,10,10
-Mar 27 2019 - 12:00am,Peru,El Salvador,0,2,50,50,2,0,3,0,1,0,2,0,-1,-1
-Mar 27 2019 - 12:00am,Honduras,Ecuador,0,0,48,52,2,2,6,5,1,0,1,0,25,17
-Mar 27 2019 - 2:00am,Mexico,Paraguay,4,2,52,48,6,4,13,7,3,0,2,1,9,21
+Mar 26 2019 - 7:45pm,Czech Republic,Brazil,1,3,41,59,5,7,12,11,0,2,0,0,15,10
+Mar 26 2019 - 11:55pm,United States,Chile,1,1,33,67,5,5,10,14,1,3,0,0,10,10
+Mar 27 2019 - 12:00am,Peru,El Salvador,0,2,50,50,2,0,3,0,1,2,0,0,-1,-1
+Mar 27 2019 - 12:00am,Honduras,Ecuador,0,0,48,52,2,2,6,5,1,1,0,0,25,17
+Mar 27 2019 - 2:00am,Mexico,Paraguay,4,2,52,48,6,4,13,7,3,2,0,1,9,21
 Mar 27 2019 - 2:00am,Costa Rica,Jamaica,1,0,52,48,2,0,4,4,1,0,0,0,22,13
-May 30 2019 - 6:00pm,Turkey,Greece,2,1,57,43,8,4,14,11,1,0,1,0,21,13
-Jun 02 2019 - 12:30am,Venezuela,Ecuador,1,1,44,56,3,4,7,13,2,0,1,0,22,13
-Jun 02 2019 - 5:00pm,Luxembourg,Madagascar,3,3,48,52,6,9,12,13,0,0,1,0,16,15
+May 30 2019 - 6:00pm,Turkey,Greece,2,1,57,43,8,4,14,11,1,1,0,0,21,13
+Jun 02 2019 - 12:30am,Venezuela,Ecuador,1,1,44,56,3,4,7,13,2,1,0,0,22,13
+Jun 02 2019 - 5:00pm,Luxembourg,Madagascar,3,3,48,52,6,9,12,13,0,1,0,0,16,15
 Jun 02 2019 - 6:00pm,Turkey,Uzbekistan,2,0,63,37,8,2,16,8,1,0,0,0,14,4
-Jun 02 2019 - 7:00pm,France,Bolivia,2,0,61,39,10,3,19,5,0,0,1,0,8,11
+Jun 02 2019 - 7:00pm,France,Bolivia,2,0,61,39,10,3,19,5,0,1,0,0,8,11
 Jun 03 2019 - 10:00pm,Colombia,Panama,3,0,60,40,10,3,19,5,0,0,0,0,16,15
-Jun 05 2019 - 10:30am,Japan,Trinidad and Tobago,0,0,67,33,0,0,20,7,0,0,3,0,13,12
-Jun 05 2019 - 11:00pm,USMNT,Jamaica,0,1,56,44,2,6,7,14,0,0,0,0,10,12
-Jun 06 2019 - 12:30am,Brazil,Qatar,2,0,65,35,8,2,20,7,1,0,2,0,14,9
-Jun 06 2019 - 1:00am,Mexico,Venezuela,3,1,56,44,8,5,18,13,1,0,2,0,8,14
-Jun 06 2019 - 1:00am,Peru,Costa Rica,1,0,57,43,3,4,9,9,1,0,2,0,20,9
-Jun 06 2019 - 3:15pm,Iran,Syria,5,0,50,50,11,4,21,11,0,0,1,0,14,8
-Jun 06 2019 - 11:00pm,Chile,Haiti,2,1,64,36,6,2,13,4,1,0,2,0,18,12
-Jun 07 2019 - 11:00am,South Korea,Australia,1,0,52,48,3,2,5,6,1,0,2,0,6,16
-Jun 07 2019 - 3:00pm,Uzbekistan,North Korea,4,0,60,40,6,5,20,8,1,0,3,0,12,9
+Jun 05 2019 - 10:30am,Japan,Trinidad and Tobago,0,0,67,33,0,0,20,7,0,3,0,0,13,12
+Jun 05 2019 - 11:00pm,United States,Jamaica,0,1,56,44,2,6,7,14,0,0,0,0,10,12
+Jun 06 2019 - 12:30am,Brazil,Qatar,2,0,65,35,8,2,20,7,1,2,0,0,14,9
+Jun 06 2019 - 1:00am,Mexico,Venezuela,3,1,56,44,8,5,18,13,1,2,0,0,8,14
+Jun 06 2019 - 1:00am,Peru,Costa Rica,1,0,57,43,3,4,9,9,1,2,0,0,20,9
+Jun 06 2019 - 3:15pm,IR Iran,Syria,5,0,50,50,11,4,21,11,0,1,0,0,14,8
+Jun 06 2019 - 11:00pm,Chile,Haiti,2,1,64,36,6,2,13,4,1,2,0,0,18,12
+Jun 07 2019 - 11:00am,South Korea,Australia,1,0,52,48,3,2,5,6,1,2,0,0,6,16
+Jun 07 2019 - 3:00pm,Uzbekistan,North Korea,4,0,60,40,6,5,20,8,1,3,0,0,12,9
 Jun 07 2019 - 4:00pm,Ivory Coast,Comoros,3,1,67,33,6,2,15,7,0,0,0,0,13,9
-Jun 07 2019 - 6:15pm,Tunisia,Iraq,2,0,49,51,5,3,6,9,2,0,2,0,9,10
+Jun 07 2019 - 6:15pm,Tunisia,Iraq,2,0,49,51,5,3,6,9,2,2,0,0,9,10
 Jun 07 2019 - 6:30pm,Slovakia,Jordan,5,1,58,42,14,4,22,10,1,0,0,0,16,15
 Jun 07 2019 - 11:15pm,Uruguay,Panama,3,0,57,43,5,0,7,2,1,0,0,0,21,18
-Jun 08 2019 - 12:10am,Argentina,Nicaragua,5,1,67,33,12,2,20,5,1,0,2,0,7,13
-Jun 08 2019 - 11:45am,Singapore,Solomon Islands,4,3,57,43,8,7,9,8,1,0,4,0,13,19
-Jun 09 2019 - 10:00am,Japan,El Salvador,2,0,50,50,5,0,17,2,1,0,2,0,28,10
-Jun 09 2019 - 4:30pm,Cameroon,Zambia,2,1,51,49,6,4,11,18,0,0,1,0,9,12
-Jun 09 2019 - 6:00pm,USMNT,Venezuela,0,3,49,51,5,5,15,9,3,0,0,0,15,11
-Jun 09 2019 - 7:00pm,Brazil,Honduras,7,0,69,31,13,3,25,5,1,0,2,1,6,10
-Jun 09 2019 - 9:00pm,Peru,Colombia,0,3,47,53,5,6,11,15,2,1,4,0,11,19
-Jun 09 2019 - 9:00pm,Paraguay,Guatemala,2,0,66,34,3,2,8,4,1,0,2,0,14,8
-Jun 09 2019 - 11:00pm,Mexico,Ecuador,3,2,62,38,9,6,14,10,0,0,2,0,12,16
-Jun 11 2019 - 11:00am,South Korea,Iran,1,1,50,50,7,7,14,15,1,0,0,0,-1,-1
-Jun 11 2019 - 12:00pm,Hong Kong,Taiwan,0,2,58,42,7,6,14,6,4,0,2,1,15,23
-Jun 11 2019 - 1:00pm,Jordan,Indonesia,4,1,57,43,9,3,18,6,0,0,2,0,10,8
-Jun 11 2019 - 1:30pm,Uzbekistan,Syria,2,0,51,49,5,6,12,17,0,0,2,0,14,8
-Jun 11 2019 - 2:00pm,Kyrgyzstan,Palestine,2,2,52,48,9,7,17,15,1,0,3,0,14,11
+Jun 08 2019 - 12:10am,Argentina,Nicaragua,5,1,67,33,12,2,20,5,1,2,0,0,7,13
+Jun 08 2019 - 11:45am,Singapore,Solomon Islands,4,3,57,43,8,7,9,8,1,4,0,0,13,19
+Jun 09 2019 - 10:00am,Japan,El Salvador,2,0,50,50,5,0,17,2,1,2,0,0,28,10
+Jun 09 2019 - 4:30pm,Cameroon,Zambia,2,1,51,49,6,4,11,18,0,1,0,0,9,12
+Jun 09 2019 - 6:00pm,United States,Venezuela,0,3,49,51,5,5,15,9,3,0,0,0,15,11
+Jun 09 2019 - 7:00pm,Brazil,Honduras,7,0,69,31,13,3,25,5,1,2,0,1,6,10
+Jun 09 2019 - 9:00pm,Peru,Colombia,0,3,47,53,5,6,11,15,2,4,1,0,11,19
+Jun 09 2019 - 9:00pm,Paraguay,Guatemala,2,0,66,34,3,2,8,4,1,2,0,0,14,8
+Jun 09 2019 - 11:00pm,Mexico,Ecuador,3,2,62,38,9,6,14,10,0,2,0,0,12,16
+Jun 11 2019 - 11:00am,South Korea,IR Iran,1,1,50,50,7,7,14,15,1,0,0,0,-1,-1
+Jun 11 2019 - 12:00pm,Hong Kong,Taiwan,0,2,58,42,7,6,14,6,4,2,0,1,15,23
+Jun 11 2019 - 1:00pm,Jordan,Indonesia,4,1,57,43,9,3,18,6,0,2,0,0,10,8
+Jun 11 2019 - 1:30pm,Uzbekistan,Syria,2,0,51,49,5,6,12,17,0,2,0,0,14,8
+Jun 11 2019 - 2:00pm,Kyrgyzstan,Palestine,2,2,52,48,9,7,17,15,1,3,0,0,14,11
 Jun 11 2019 - 6:00pm,Algeria,Burundi,1,1,56,44,8,5,17,7,-1,-1,-1,-1,-1,-1
-Jun 11 2019 - 6:45pm,Croatia,Tunisia,1,2,55,45,3,5,11,8,1,0,1,0,8,6
-Jun 12 2019 - 4:30pm,Morocco,Gambia,0,1,50,50,6,2,18,4,1,0,1,0,13,7
-Jun 13 2019 - 7:00pm,Egypt,Tanzania,1,0,69,31,7,2,25,6,2,0,5,0,13,18
-Jun 14 2019 - 4:00pm,Cameroon,Mali,1,1,61,39,6,5,12,9,2,0,1,0,14,15
-Jun 15 2019 - 11:30am,Indonesia,Vanuatu,6,0,56,44,12,4,25,9,2,0,1,0,-1,-1
-Jun 15 2019 - 12:30pm,Ivory Coast,Uganda,0,1,52,48,4,5,8,10,1,0,1,0,6,21
-Jun 15 2019 - 1:30pm,Ghana,South Africa,0,0,-1,-1,-1,-1,-1,-1,2,0,3,0,-1,-1
-Jun 15 2019 - 5:00pm,Kenya,Congo DR,1,1,48,52,4,5,11,7,0,0,0,0,22,11
-Jun 16 2019 - 4:30pm,Morocco,Zambia,2,3,50,50,8,5,19,8,3,0,3,0,10,15
-Jun 16 2019 - 7:00pm,Egypt,Guinea,3,1,50,50,12,4,18,12,1,0,3,0,-1,-1
-Jun 17 2019 - 6:15pm,Tunisia,Burundi,2,1,62,38,5,3,12,4,1,0,3,0,11,25
+Jun 11 2019 - 6:45pm,Croatia,Tunisia,1,2,55,45,3,5,11,8,1,1,0,0,8,6
+Jun 12 2019 - 4:30pm,Morocco,Gambia,0,1,50,50,6,2,18,4,1,1,0,0,13,7
+Jun 13 2019 - 7:00pm,Egypt,Tanzania,1,0,69,31,7,2,25,6,2,5,0,0,13,18
+Jun 14 2019 - 4:00pm,Cameroon,Mali,1,1,61,39,6,5,12,9,2,1,0,0,14,15
+Jun 15 2019 - 11:30am,Indonesia,Vanuatu,6,0,56,44,12,4,25,9,2,1,0,0,-1,-1
+Jun 15 2019 - 12:30pm,Ivory Coast,Uganda,0,1,52,48,4,5,8,10,1,1,0,0,6,21
+Jun 15 2019 - 1:30pm,Ghana,South Africa,0,0,-1,-1,-1,-1,-1,-1,2,3,0,0,-1,-1
+Jun 15 2019 - 5:00pm,Kenya,Congo,1,1,48,52,4,5,11,7,0,0,0,0,22,11
+Jun 16 2019 - 4:30pm,Morocco,Zambia,2,3,50,50,8,5,19,8,3,3,0,0,10,15
+Jun 16 2019 - 7:00pm,Egypt,Guinea,3,1,50,50,12,4,18,12,1,3,0,0,-1,-1
+Jun 17 2019 - 6:15pm,Tunisia,Burundi,2,1,62,38,5,3,12,4,1,3,0,0,11,25
 Jun 19 2019 - 12:30pm,Ivory Coast,Zambia,4,1,50,50,2,6,6,11,1,0,0,0,-1,-1
-Sep 05 2019 - 10:20am,Japan,Paraguay,2,0,56,44,11,4,21,6,1,0,2,0,12,17
-Sep 05 2019 - 1:30pm,South Korea,Georgia,2,2,50,50,4,6,8,13,1,0,1,0,-1,-1
-Sep 05 2019 - 5:00pm,Saudi Arabia,Mali,1,1,50,50,6,7,10,9,2,0,3,0,10,20
-Sep 05 2019 - 6:45pm,Montenegro,Hungary,2,1,50,50,7,7,10,14,0,0,2,0,23,8
-Sep 05 2019 - 6:45pm,Northern Ireland,Luxembourg,1,0,47,53,3,3,8,14,2,0,2,0,9,16
-Sep 06 2019 - 12:00am,Peru,Ecuador,0,1,63,37,3,2,10,5,2,0,2,0,11,19
-Sep 06 2019 - 1:00am,Honduras,Puerto Rico,4,0,71,29,13,3,26,3,0,0,3,0,12,12
-Sep 06 2019 - 2:30am,Chile,Argentina,0,0,51,49,3,4,6,14,4,0,6,0,24,16
-Sep 06 2019 - 5:00pm,Ivory Coast,Benin,1,2,60,40,5,7,7,13,1,0,3,0,14,9
-Sep 06 2019 - 6:15pm,Tunisia,Mauritania,1,0,63,37,5,4,13,11,3,0,3,0,15,22
-Sep 06 2019 - 7:00pm,Morocco,Burkina,1,1,57,43,3,5,7,6,1,0,2,0,18,13
+Sep 05 2019 - 10:20am,Japan,Paraguay,2,0,56,44,11,4,21,6,1,2,0,0,12,17
+Sep 05 2019 - 1:30pm,South Korea,Georgia,2,2,50,50,4,6,8,13,1,1,0,0,-1,-1
+Sep 05 2019 - 5:00pm,Saudi Arabia,Mali,1,1,50,50,6,7,10,9,2,3,0,0,10,20
+Sep 05 2019 - 6:45pm,Montenegro,Hungary,2,1,50,50,7,7,10,14,0,2,0,0,23,8
+Sep 05 2019 - 6:45pm,Northern Ireland,Luxembourg,1,0,47,53,3,3,8,14,2,2,0,0,9,16
+Sep 06 2019 - 12:00am,Peru,Ecuador,0,1,63,37,3,2,10,5,2,2,0,0,11,19
+Sep 06 2019 - 1:00am,Honduras,Puerto Rico,4,0,71,29,13,3,26,3,0,3,0,0,12,12
+Sep 06 2019 - 2:30am,Chile,Argentina,0,0,51,49,3,4,6,14,4,6,0,0,24,16
+Sep 06 2019 - 5:00pm,Ivory Coast,Benin,1,2,60,40,5,7,7,13,1,3,0,0,14,9
+Sep 06 2019 - 6:15pm,Tunisia,Mauritania,1,0,63,37,5,4,13,11,3,3,0,0,15,22
+Sep 06 2019 - 7:00pm,Morocco,Burkina,1,1,57,43,3,5,7,6,1,2,0,0,18,13
 Sep 07 2019 - 12:30am,Brazil,Colombia,2,2,54,46,5,3,8,5,1,0,0,0,15,13
-Sep 07 2019 - 12:30am,USMNT,Mexico,0,3,47,53,5,5,7,10,2,0,2,0,17,17
-Sep 07 2019 - 2:00am,Costa Rica,Uruguay,1,2,57,43,4,4,6,11,3,0,2,0,15,19
-Sep 09 2019 - 6:45pm,Wales,Belarus,1,0,67,33,4,2,14,6,0,0,1,0,11,30
-Sep 09 2019 - 8:00pm,Algeria,Benin,1,0,61,39,8,3,14,6,0,0,2,0,8,18
-Sep 10 2019 - 3:30pm,Oman,Lebanon,1,0,50,50,7,3,13,13,0,1,2,0,12,13
-Sep 10 2019 - 4:00pm,Jordan,Paraguay,2,4,40,60,4,8,8,18,1,0,1,0,13,16
+Sep 07 2019 - 12:30am,United States,Mexico,0,3,47,53,5,5,7,10,2,2,0,0,17,17
+Sep 07 2019 - 2:00am,Costa Rica,Uruguay,1,2,57,43,4,4,6,11,3,2,0,0,15,19
+Sep 09 2019 - 6:45pm,Wales,Belarus,1,0,67,33,4,2,14,6,0,1,0,0,11,30
+Sep 09 2019 - 8:00pm,Algeria,Benin,1,0,61,39,8,3,14,6,0,2,0,0,8,18
+Sep 10 2019 - 3:30pm,Oman,Lebanon,1,0,50,50,7,3,13,13,0,2,1,0,12,13
+Sep 10 2019 - 4:00pm,Jordan,Paraguay,2,4,40,60,4,8,8,18,1,1,0,0,13,16
 Sep 10 2019 - 5:00pm,Tunisia,Ivory Coast,1,2,50,50,2,4,6,9,0,0,0,0,9,14
-Sep 10 2019 - 6:30pm,Ukraine,Nigeria,2,2,65,35,6,10,11,15,0,0,1,0,5,9
+Sep 10 2019 - 6:30pm,Ukraine,Nigeria,2,2,65,35,6,10,11,15,0,1,0,0,5,9
 Sep 10 2019 - 6:45pm,Republic of Ireland,Bulgaria,3,1,58,42,5,3,16,12,1,0,0,0,9,9
 Sep 10 2019 - 7:00pm,Morocco,Niger,1,0,67,33,3,0,4,0,0,0,0,0,8,8
-Sep 11 2019 - 12:00am,USMNT,Uruguay,1,1,58,42,3,2,4,2,0,0,0,0,3,6
-Sep 11 2019 - 12:00am,Ecuador,Bolivia,3,0,54,46,6,7,8,14,2,0,2,0,11,9
-Sep 11 2019 - 1:30am,Honduras,Chile,2,1,37,63,5,2,16,9,4,0,2,0,15,13
-Sep 11 2019 - 2:00am,Argentina,Mexico,4,0,43,57,8,2,14,3,4,0,4,0,14,16
-Sep 11 2019 - 3:00am,Brazil,Peru,0,1,56,44,3,4,12,8,1,0,1,0,10,15
-Oct 03 2019 - 2:06am,Mexico,Trinidad and Tobago,2,0,50,50,11,0,27,3,1,0,2,0,-1,-1
+Sep 11 2019 - 12:00am,United States,Uruguay,1,1,58,42,3,2,4,2,0,0,0,0,3,6
+Sep 11 2019 - 12:00am,Ecuador,Bolivia,3,0,54,46,6,7,8,14,2,2,0,0,11,9
+Sep 11 2019 - 1:30am,Honduras,Chile,2,1,37,63,5,2,16,9,4,2,0,0,15,13
+Sep 11 2019 - 2:00am,Argentina,Mexico,4,0,43,57,8,2,14,3,4,4,0,0,14,16
+Sep 11 2019 - 3:00am,Brazil,Peru,0,1,56,44,3,4,12,8,1,1,0,0,10,15
+Oct 03 2019 - 2:06am,Mexico,Trinidad and Tobago,2,0,50,50,11,0,27,3,1,2,0,0,-1,-1
 Oct 05 2019 - 4:00pm,Jordan,Singapore,0,0,62,38,4,0,17,3,0,0,0,0,15,23
-Oct 09 2019 - 4:30pm,Bahrain,Azerbaijan,2,3,50,50,6,4,12,8,0,0,1,0,12,11
-Oct 09 2019 - 6:45pm,Germany,Argentina,2,2,46,54,8,4,15,11,1,0,3,0,16,12
-Oct 10 2019 - 12:00pm,Brazil,Senegal,1,1,50,50,5,5,12,11,2,0,2,0,17,15
-Oct 10 2019 - 4:00pm,Kosovo,Gibraltar,1,0,78,22,3,3,18,3,0,0,2,0,13,8
-Oct 10 2019 - 6:45pm,Serbia,Paraguay,1,0,58,42,4,4,11,9,2,0,5,1,16,14
-Oct 10 2019 - 10:00pm,Venezuela,Bolivia,4,1,58,42,8,4,10,7,0,0,1,0,14,12
-Oct 11 2019 - 6:00pm,Morocco,Libya,1,1,50,50,3,3,4,3,1,0,2,0,10,17
-Oct 11 2019 - 11:00pm,Uruguay,Peru,1,0,54,46,2,0,14,8,2,0,3,0,17,17
-Oct 12 2019 - 4:00pm,Colombia,Chile,0,0,54,46,7,0,15,2,1,0,4,0,14,27
-Oct 12 2019 - 5:00pm,Tunisia,Cameroon,0,0,49,51,5,2,11,6,1,0,1,0,11,17
-Oct 13 2019 - 12:00pm,Brazil,Nigeria,1,1,63,37,5,6,19,9,1,0,1,0,4,5
-Oct 13 2019 - 1:00pm,Kenya,Mozambique,0,1,61,39,7,4,12,8,0,0,1,0,13,14
-Oct 13 2019 - 2:00pm,Ecuador,Argentina,1,6,42,58,2,8,6,11,2,0,2,0,17,16
-Oct 13 2019 - 5:00pm,Ivory Coast,Congo DR,3,1,54,46,4,5,5,9,1,0,1,0,13,7
-Oct 13 2019 - 6:45pm,Slovakia,Paraguay,1,1,34,66,3,9,7,17,1,0,3,0,14,21
-Oct 14 2019 - 5:00pm,Czech Republic,Northern Ireland,2,3,65,35,7,5,21,7,1,0,1,0,17,14
-Oct 14 2019 - 5:00pm,Egypt,Botswana,1,0,50,50,9,3,17,5,1,0,3,0,12,18
-Oct 14 2019 - 10:00pm,Venezuela,Trinidad and Tobago,2,0,64,36,7,0,11,4,0,0,1,0,19,6
-Oct 15 2019 - 12:00pm,Kuwait,Turkmenistan,1,1,51,49,6,7,8,10,0,0,4,0,11,21
-Oct 15 2019 - 4:00pm,Chile,Guinea,3,2,65,35,7,4,16,5,0,0,1,0,9,14
-Oct 15 2019 - 5:00pm,Denmark,Luxembourg,4,0,67,33,10,3,22,8,1,0,3,0,10,13
-Oct 15 2019 - 7:00pm,Morocco,Gabon,2,3,50,50,10,9,20,17,0,0,2,0,14,22
-Oct 15 2019 - 7:00pm,Algeria,Colombia,3,0,44,56,5,4,9,9,1,0,2,0,13,17
-Oct 16 2019 - 12:00am,Bolivia,Haiti,3,1,47,53,10,15,13,20,1,0,2,0,14,11
-Oct 16 2019 - 1:30am,Peru,Uruguay,1,1,53,47,6,5,10,11,3,0,1,1,25,18
-Nov 07 2019 - 4:00pm,Egypt,Liberia,1,0,66,34,7,2,14,4,1,0,4,1,15,23
-Nov 09 2019 - 12:00pm,Uzbekistan,Kyrgyzstan,3,1,71,29,10,7,17,9,0,0,1,0,12,16
-Nov 14 2019 - 4:30pm,Qatar,Singapore,2,0,50,50,8,2,16,4,0,0,2,0,-1,-1
-Nov 14 2019 - 5:00pm,Bulgaria,Paraguay,0,1,36,64,3,8,5,20,2,0,2,0,18,14
+Oct 09 2019 - 4:30pm,Bahrain,Azerbaijan,2,3,50,50,6,4,12,8,0,1,0,0,12,11
+Oct 09 2019 - 6:45pm,Germany,Argentina,2,2,46,54,8,4,15,11,1,3,0,0,16,12
+Oct 10 2019 - 12:00pm,Brazil,Senegal,1,1,50,50,5,5,12,11,2,2,0,0,17,15
+Oct 10 2019 - 4:00pm,Kosovo,Gibraltar,1,0,78,22,3,3,18,3,0,2,0,0,13,8
+Oct 10 2019 - 6:45pm,Serbia,Paraguay,1,0,58,42,4,4,11,9,2,5,0,1,16,14
+Oct 10 2019 - 10:00pm,Venezuela,Bolivia,4,1,58,42,8,4,10,7,0,1,0,0,14,12
+Oct 11 2019 - 6:00pm,Morocco,Libya,1,1,50,50,3,3,4,3,1,2,0,0,10,17
+Oct 11 2019 - 11:00pm,Uruguay,Peru,1,0,54,46,2,0,14,8,2,3,0,0,17,17
+Oct 12 2019 - 4:00pm,Colombia,Chile,0,0,54,46,7,0,15,2,1,4,0,0,14,27
+Oct 12 2019 - 5:00pm,Tunisia,Cameroon,0,0,49,51,5,2,11,6,1,1,0,0,11,17
+Oct 13 2019 - 12:00pm,Brazil,Nigeria,1,1,63,37,5,6,19,9,1,1,0,0,4,5
+Oct 13 2019 - 1:00pm,Kenya,Mozambique,0,1,61,39,7,4,12,8,0,1,0,0,13,14
+Oct 13 2019 - 2:00pm,Ecuador,Argentina,1,6,42,58,2,8,6,11,2,2,0,0,17,16
+Oct 13 2019 - 5:00pm,Ivory Coast,Congo,3,1,54,46,4,5,5,9,1,1,0,0,13,7
+Oct 13 2019 - 6:45pm,Slovakia,Paraguay,1,1,34,66,3,9,7,17,1,3,0,0,14,21
+Oct 14 2019 - 5:00pm,Czech Republic,Northern Ireland,2,3,65,35,7,5,21,7,1,1,0,0,17,14
+Oct 14 2019 - 5:00pm,Egypt,Botswana,1,0,50,50,9,3,17,5,1,3,0,0,12,18
+Oct 14 2019 - 10:00pm,Venezuela,Trinidad and Tobago,2,0,64,36,7,0,11,4,0,1,0,0,19,6
+Oct 15 2019 - 12:00pm,Kuwait,Turkmenistan,1,1,51,49,6,7,8,10,0,4,0,0,11,21
+Oct 15 2019 - 4:00pm,Chile,Guinea,3,2,65,35,7,4,16,5,0,1,0,0,9,14
+Oct 15 2019 - 5:00pm,Denmark,Luxembourg,4,0,67,33,10,3,22,8,1,3,0,0,10,13
+Oct 15 2019 - 7:00pm,Morocco,Gabon,2,3,50,50,10,9,20,17,0,2,0,0,14,22
+Oct 15 2019 - 7:00pm,Algeria,Colombia,3,0,44,56,5,4,9,9,1,2,0,0,13,17
+Oct 16 2019 - 12:00am,Bolivia,Haiti,3,1,47,53,10,15,13,20,1,2,0,0,14,11
+Oct 16 2019 - 1:30am,Peru,Uruguay,1,1,53,47,6,5,10,11,3,1,0,1,25,18
+Nov 07 2019 - 4:00pm,Egypt,Liberia,1,0,66,34,7,2,14,4,1,4,0,1,15,23
+Nov 09 2019 - 12:00pm,Uzbekistan,Kyrgyzstan,3,1,71,29,10,7,17,9,0,1,0,0,12,16
+Nov 14 2019 - 4:30pm,Qatar,Singapore,2,0,50,50,8,2,16,4,0,2,0,0,-1,-1
+Nov 14 2019 - 5:00pm,Bulgaria,Paraguay,0,1,36,64,3,8,5,20,2,2,0,0,18,14
 Nov 14 2019 - 7:45pm,Republic of Ireland,New Zealand,3,1,62,38,10,6,27,11,0,0,0,0,10,12
-Nov 15 2019 - 12:00am,Ecuador,Trinidad and Tobago,3,0,65,35,8,2,16,2,1,0,2,0,10,14
-Nov 15 2019 - 5:00pm,Brazil,Argentina,0,1,53,47,3,9,8,14,3,0,3,0,16,23
-Nov 15 2019 - 6:00pm,Hungary,Uruguay,1,2,36,64,3,9,8,24,1,0,1,0,16,11
-Nov 16 2019 - 1:30am,Colombia,Peru,1,0,46,54,4,5,8,14,4,0,1,0,11,10
-Nov 18 2019 - 7:15pm,Argentina,Uruguay,2,2,67,33,9,4,19,7,2,0,3,0,17,18
-Nov 19 2019 - 10:25am,Japan,Venezuela,1,4,52,48,9,5,16,9,2,0,3,0,-1,-1
-Nov 19 2019 - 1:30pm,Brazil,South Korea,3,0,54,46,6,6,18,14,0,0,1,0,9,9
-Nov 19 2019 - 4:30pm,Saudi Arabia,Paraguay,0,0,43,57,6,5,12,16,1,0,3,0,11,16
+Nov 15 2019 - 12:00am,Ecuador,Trinidad and Tobago,3,0,65,35,8,2,16,2,1,2,0,0,10,14
+Nov 15 2019 - 5:00pm,Brazil,Argentina,0,1,53,47,3,9,8,14,3,3,0,0,16,23
+Nov 15 2019 - 6:00pm,Hungary,Uruguay,1,2,36,64,3,9,8,24,1,1,0,0,16,11
+Nov 16 2019 - 1:30am,Colombia,Peru,1,0,46,54,4,5,8,14,4,1,0,0,11,10
+Nov 18 2019 - 7:15pm,Argentina,Uruguay,2,2,67,33,9,4,19,7,2,3,0,0,17,18
+Nov 19 2019 - 10:25am,Japan,Venezuela,1,4,52,48,9,5,16,9,2,3,0,0,-1,-1
+Nov 19 2019 - 1:30pm,Brazil,South Korea,3,0,54,46,6,6,18,14,0,1,0,0,9,9
+Nov 19 2019 - 4:30pm,Saudi Arabia,Paraguay,0,0,43,57,6,5,12,16,1,3,0,0,11,16
 Nov 19 2019 - 5:00pm,Croatia,Georgia,2,1,53,47,7,4,16,10,0,0,0,0,12,10
-Nov 19 2019 - 6:00pm,Morocco A,Guinea A,3,1,61,39,11,2,21,3,0,0,5,0,24,19
-Nov 20 2019 - 1:00am,Ecuador,Colombia,0,1,45,55,4,10,11,15,1,0,1,0,11,19
+Nov 19 2019 - 6:00pm,Morocco,Guinea,3,1,61,39,11,2,21,3,0,5,0,0,24,19
+Nov 20 2019 - 1:00am,Ecuador,Colombia,0,1,45,55,4,10,11,15,1,1,0,0,11,19

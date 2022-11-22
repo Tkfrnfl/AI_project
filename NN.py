@@ -8,25 +8,28 @@ import matplotlib.pyplot as plt
 from collections import OrderedDict
 
 class NN:
+    params={}
+
     def __init__(self,input_data_posi,input_data_nega,country):
 
-        network = TwoLayerNet(input_size=3, hidden_size=10, output_size=15)
+        
+        # NN.params['W1']=np.random.rand(3,10)      # 가중치와 편향 초기화
+        # NN.params['b1']=np.zeros(10)
+        # NN.params['W2']=np.random.rand(10,12)  
+        # NN.params['b2']=np.zeros(12)
+
+        network = TwoLayerNet(input_size=3, hidden_size=10, output_size=12)
         input_data_po=[]
         out_data_po=[]
         input_data_ne=[]
         out_data_ne=[]
     
-        lr = 0.001
-        epochs = 10
+        lr = 0.05
+        epochs = 300
 
         cost_list=[[0]*1000 for _ in range(10)]
         correct=0
         sum=0
-        self.params={}
-        self.params['W1']=np.random.rand(3,10)      # 가중치와 편향 초기화
-        self.params['b1']=np.zeros(10)
-        self.params['W2']=np.random.rand(10,15)  
-        self.params['b2']=np.zeros(15)
 
 
         for i,val in enumerate(input_data_posi):  #각 나라별 input, output 데이터 정제(posi)
@@ -37,11 +40,10 @@ class NN:
         #float 형변환
         input_data_po=np.array(input_data_po,np.float32)
         input_data_po=self.nomalize(input_data_po)
-        print(len(input_data_po))
         out_data_po=list(map(int,out_data_po))  
 
         #output one hot encoding
-        out_ohe_po=np.eye(15)[out_data_po]
+        out_ohe_po=np.eye(12)[out_data_po]
 
 
         for i,val in enumerate(input_data_nega):  #각 나라별 input, output 데이터 정제(nega)
@@ -56,7 +58,7 @@ class NN:
         out_data_ne=list(map(int,out_data_ne))
 
         #output one hot encoding
-        out_ohe_ne=np.eye(15)[out_data_ne]
+        out_ohe_ne=np.eye(12)[out_data_ne]
         
         #NN.predict(self,input_data_po[0])
         ans=0
@@ -68,14 +70,17 @@ class NN:
                 #grad=NN.numerical_gradient(self,input_data_po[i],out_ohe_po[i])
                 grads=network.gradient(input_data_po[i],out_ohe_po[i])
 
-                self.params['W1']-=lr*grads['W1']        #grad 값과 lr에 따라 가중치,편차값 조정 
-                self.params['b1']-=lr*grads['b1']
-                self.params['W2']-=lr*grads['W2']
-                self.params['b2']-=lr*grads['b2']
-        #         ans+=self.accuracy(input_data_po[i],out_ohe_po[i])
-        #         total+=1
+                NN.params['W1']-=lr*grads['W1']        #grad 값과 lr에 따라 가중치,편차값 조정 
+                NN.params['b1']-=lr*grads['b1']
+                NN.params['W2']-=lr*grads['W2']
+                NN.params['b2']-=lr*grads['b2']
 
-        # print(ans/total)        
+        for i,val in enumerate(input_data_po):
+            tmp=network.accuracy(input_data_po[i],out_ohe_po[i])
+            ans+=tmp
+            total+=1
+
+        print(ans/total)        
 
             
 
@@ -85,7 +90,7 @@ class NN:
     #     a1=np.dot(x,w1) +b1
     #     z1=NN.sigmoid(self,a1)
     #     a2=np.dot(z1,w2)+b2
-    #     y=NN.softmax(a2)
+    #     y=NN.sofracytmax(a2)
 
     #     return y
 
@@ -179,17 +184,17 @@ class TwoLayerNet:
 
     def __init__(self, input_size, hidden_size, output_size, weight_init_std = 0.01):
         # 가중치 초기화
-        self.params = {}
-        self.params['W1'] = weight_init_std * np.random.randn(input_size, hidden_size)
-        self.params['b1'] = np.zeros(hidden_size)
-        self.params['W2'] = weight_init_std * np.random.randn(hidden_size, output_size) 
-        self.params['b2'] = np.zeros(output_size)
+
+        NN.params['W1'] = weight_init_std * np.random.randn(input_size, hidden_size)
+        NN.params['b1'] = np.zeros(hidden_size)
+        NN.params['W2'] = weight_init_std * np.random.randn(hidden_size, output_size) 
+        NN.params['b2'] = np.zeros(output_size)
 
         # 계층 생성
         self.layers = OrderedDict()
-        self.layers['Affine1'] = Affine(self.params['W1'], self.params['b1'])
+        self.layers['Affine1'] = Affine(NN.params['W1'], NN.params['b1'])
         self.layers['Relu1'] = Relu()
-        self.layers['Affine2'] = Affine(self.params['W2'], self.params['b2'])
+        self.layers['Affine2'] = Affine(NN.params['W2'], NN.params['b2'])
 
         self.lastLayer = SoftmaxWithLoss()
         
@@ -206,11 +211,15 @@ class TwoLayerNet:
     
     def accuracy(self, x, t):
         y = self.predict(x)
-        y = np.argmax(y, axis=1)
+        if y.ndim != 1 : y = np.argmax(y, axis=1)
         if t.ndim != 1 : t = np.argmax(t, axis=1)
-        
-        accuracy = np.sum(y == t) / float(x.shape[0])
-        return accuracy
+        print(np.argmax(y))
+        #print(np.argmax(t))
+
+        if np.argmax(y)==np.argmax(t):
+            return 1
+        else:
+            return 0    
         
     # x : 입력 데이터, t : 정답 레이블
         
@@ -229,8 +238,8 @@ class TwoLayerNet:
 
         # 결과 저장
         grads = {}
-        grads['W1'], grads['b1'] = self.layers['Affine1'].dw, self.layers['Affine1'].db
-        grads['W2'], grads['b2'] = self.layers['Affine2'].dw, self.layers['Affine2'].db
+        grads['W1'], grads['b1'] = self.layers['Affine1'].dW, self.layers['Affine1'].db
+        grads['W2'], grads['b2'] = self.layers['Affine2'].dW, self.layers['Affine2'].db
         #print(grads)
         return grads     
 
@@ -284,30 +293,23 @@ class Affine:
         #     # print(out)
         #     return out
 
-        DATE_SIZE = x.shape[0]	# 배치 사이즈 가져오기
-        
-        out = np.dot(x, self.W) + self.b
-        x = x.reshape(DATE_SIZE, -1)
-        self.x = x	# 역전파 때 가중치에 곱하기 위해 저장
-        
-        # print(self.x.shape)
-        # print(out.shape)
+        #x = x.reshape(x.shape[0], -1)
+        self.x = x
+
+        out = np.dot(self.x, self.W) + self.b
+
         return out
         
     def backward(self, dout):
         dx = np.dot(dout, self.W.T)
-
-        # print(dout.shape)
+        #print(dout.shape)
         # print(self.W.T.shape)
         # print(dx.shape)
-        # print(self.x.T.shape)
-        self.dw = np.dot(self.x, dout.reshape(dout.shape[0],-1).T)
+        #print(self.x.T.shape)
+        self.dW = np.dot(self.x.T.reshape(self.x.T.shape[0],1), dout.reshape(1,dout.shape[0]))
         self.db = np.sum(dout, axis=0)
-        
-        # 미분값( dx )을 입력값 x의 형상으로 다시 바꿔주기
-        dx = dx.reshape(*self.original_x_shape)	# (12, 3) -> *(12, 3) -> 12, 3으로 언패킹 된다. *을 붙이면 튜플이 순서대로 언패킹 된다.
-        # print(dx.shape)
         return dx
+
 
 class SoftmaxWithLoss:
     def __init__(self):
