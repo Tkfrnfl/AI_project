@@ -17,8 +17,8 @@ class NN:
 
         
 
-        lr = 0.05
-        epochs = 50
+        lr = 0.01
+        epochs = 10
 
         cost_list=[[0]*1000 for _ in range(10)]
         correct=0
@@ -74,9 +74,10 @@ class NN:
                 total+=1
 
         print(ans/total)     
-        x=range(len(NN.plt_X))   
-        plt.plot(x,NN.plt_X,'y-')
-        #plt.show()
+        # x=range(len(NN.plt_X))   
+        # plt.plot(x,NN.plt_X,'r')
+        plt.plot(NN.plt_X)
+        plt.show()
 
             
 
@@ -117,7 +118,7 @@ class NN:
 
         batch_size = y.shape[0]
         print(-np.sum(np.log(y[np.arange(batch_size), t] + 1e-7)) / batch_size)
-        NN.plt_X.append(-np.sum(t*np.log(y+1e-7)) )
+        NN.plt_X.append(-np.sum(np.log(y[np.arange(batch_size), t] + 1e-7)) / batch_size)
         return -np.sum(np.log(y[np.arange(batch_size), t] + 1e-7)) / batch_size
         
 
