@@ -17,17 +17,17 @@ class NN:
 
         
 
-        lr = 0.1
-        epochs = 30
+        lr = 0.05
+        epochs = 50
 
         cost_list=[[0]*1000 for _ in range(10)]
         correct=0
         sum=0
         self.params={}
-        self.params['w1']=np.random.rand(3,15)      # 가중치와 편향 초기화
-        self.params['b1']=np.zeros(15)
-        self.params['w2']=np.random.rand(15,15)  
-        self.params['b2']=np.zeros(15)
+        self.params['w1']=np.random.rand(3,12)/np.sqrt(12)      # 가중치와 편향 초기화
+        self.params['b1']=np.zeros(12)
+        self.params['w2']=np.random.rand(12,12) /np.sqrt(12)  
+        self.params['b2']=np.zeros(12)
 
 
         for i,val in enumerate(input_data_posi):  #각 나라별 input, output 데이터 정제(posi)
@@ -41,7 +41,7 @@ class NN:
         out_data_po=list(map(int,out_data_po))  
 
         #output one hot encoding
-        out_ohe_po=np.eye(15)[out_data_po]
+        out_ohe_po=np.eye(12)[out_data_po]
 
 
         for i,val in enumerate(input_data_nega):  #각 나라별 input, output 데이터 정제(nega)
@@ -56,7 +56,7 @@ class NN:
         out_data_ne=list(map(int,out_data_ne))
 
         #output one hot encoding
-        out_ohe_ne=np.eye(15)[out_data_ne]
+        out_ohe_ne=np.eye(12)[out_data_ne]
         
         #NN.predict(self,input_data_po[0])
         ans=0
@@ -64,7 +64,7 @@ class NN:
         for i in range(epochs):
 
             for i,val in enumerate(input_data_po):
-                
+
                 grad=NN.numerical_gradient(self,input_data_po[i],out_ohe_po[i])
                 self.params['w1']-=lr*grad['w1']        #grad 값과 lr에 따라 가중치,편차값 조정 
                 self.params['b1']-=lr*grad['b1']
@@ -76,7 +76,7 @@ class NN:
         print(ans/total)     
         x=range(len(NN.plt_X))   
         plt.plot(x,NN.plt_X,'y-')
-        plt.show()
+        #plt.show()
 
             
 
@@ -107,13 +107,21 @@ class NN:
         return NN.cee(y,t)
 
     def cee(y,t):
-        delta = 1e-7                  
-        if y.ndim==1:
-            t=t.reshape(1,t.size)
-            y=y.reshape(1,y.size)
-        NN.plt_X.append(-np.sum(t*np.log(y+delta)) )
-        print(-np.sum(t*np.log(y+delta))    )   
-        return -np.sum(t*np.log(y+delta))    
+        if y.ndim == 1:
+                t = t.reshape(1, t.size)
+                y = y.reshape(1, y.size)
+
+            # 훈련 데이터가 원-핫 벡터라면 정답 레이블의 인덱스로 반환
+        if t.size == y.size:
+                t = t.argmax(axis=1)
+
+        batch_size = y.shape[0]
+        print(-np.sum(np.log(y[np.arange(batch_size), t] + 1e-7)) / batch_size)
+        NN.plt_X.append(-np.sum(t*np.log(y+1e-7)) )
+        return -np.sum(np.log(y[np.arange(batch_size), t] + 1e-7)) / batch_size
+        
+
+
 
     def numerical_gradient_no_batch(f,x):
         h=1e-4
