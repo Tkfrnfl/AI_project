@@ -17,8 +17,8 @@ class NN:
 
         
 
-        lr = 0.01
-        epochs = 10
+        lr = 0.05
+        epochs = 50
 
         cost_list=[[0]*1000 for _ in range(10)]
         correct=0
@@ -70,6 +70,8 @@ class NN:
                 self.params['b1']-=lr*grad['b1']
                 self.params['w2']-=lr*grad['w2']
                 self.params['b2']-=lr*grad['b2']
+
+            for i,val in enumerate(input_data_po):    
                 ans+=self.accuracy(input_data_po[i],out_ohe_po[i])
                 total+=1
 

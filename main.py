@@ -92,7 +92,7 @@ for i,val in enumerate(data_list2):          #데이터 가공
             country_result_posi.append(data_list_h)
             country_result_posi.append(data_list_a)
 
-NN(country_result_posi,country_result_nega,"Denmark")
+NN(country_result_posi,country_result_nega,"South Korea")
 
 
 
