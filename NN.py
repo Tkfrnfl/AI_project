@@ -9,7 +9,7 @@ from collections import OrderedDict
 
 class NN:
     params={}
-
+    plt_X=[]
     def __init__(self,input_data_posi,input_data_nega,country):
 
         
@@ -25,7 +25,7 @@ class NN:
         out_data_ne=[]
     
         lr = 0.05
-        epochs = 300
+        epochs = 100
 
         cost_list=[[0]*1000 for _ in range(10)]
         correct=0
@@ -79,6 +79,8 @@ class NN:
             tmp=network.accuracy(input_data_po[i],out_ohe_po[i])
             ans+=tmp
             total+=1
+        plt.plot(NN.plt_X)
+        plt.show()
 
         print(ans/total)        
 
@@ -321,6 +323,7 @@ class SoftmaxWithLoss:
         self.t = t
         self.y = SoftmaxWithLoss.softmax(x)
         self.loss = SoftmaxWithLoss.cross_entropy_error(self.y, self.t)
+        NN.plt_X.append(self.loss)
         print(self.loss)
         return self.loss
 
