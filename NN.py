@@ -15,14 +15,10 @@ class NN:
         input_data_ne=[]
         out_data_ne=[]
 
-        
 
         lr = 0.05
-        epochs = 50
+        epochs = 10
 
-        cost_list=[[0]*1000 for _ in range(10)]
-        correct=0
-        sum=0
         self.params={}
         self.params['w1']=np.random.rand(3,12)/np.sqrt(12)      # 가중치와 편향 초기화
         self.params['b1']=np.zeros(12)
@@ -75,9 +71,7 @@ class NN:
                 ans+=self.accuracy(input_data_po[i],out_ohe_po[i])
                 total+=1
 
-        print(ans/total)     
-        # x=range(len(NN.plt_X))   
-        # plt.plot(x,NN.plt_X,'r')
+        print('정확도:'+str(ans/total))     
         plt.plot(NN.plt_X)
         plt.show()
 
@@ -119,7 +113,7 @@ class NN:
                 t = t.argmax(axis=1)
 
         batch_size = y.shape[0]
-        print(-np.sum(np.log(y[np.arange(batch_size), t] + 1e-7)) / batch_size)
+        print('loss: '+str(-np.sum(np.log(y[np.arange(batch_size), t] + 1e-7)) / batch_size))
         NN.plt_X.append(-np.sum(np.log(y[np.arange(batch_size), t] + 1e-7)) / batch_size)
         return -np.sum(np.log(y[np.arange(batch_size), t] + 1e-7)) / batch_size
         
@@ -160,17 +154,12 @@ class NN:
         grads['b1'] = NN.gradient(loss_W, self.params['b1'])
         grads['w2'] = NN.gradient(loss_W, self.params['w2'])
         grads['b2'] = NN.gradient(loss_W, self.params['b2'])
-        #print(grads['w1'])
         return grads
 
     def accuracy(self, x, t):
         y = self.predict(x)
         y = np.argmax(y) 
-
-        # if t.ndim != 1 :   
-        #     t = np.argmax(t, axis=1)
         t = np.argmax(t)
-        #accuracy = np.sum(y == t) / float(x.shape[0])   
 
         if y==t :
             return 1
