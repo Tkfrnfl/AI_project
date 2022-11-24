@@ -12,24 +12,60 @@ class NN:
     plt_X=[]
     def __init__(self,input_data_posi,input_data_nega,country):
 
-        
-        # NN.params['W1']=np.random.rand(3,10)      # 가중치와 편향 초기화
-        # NN.params['b1']=np.zeros(10)
-        # NN.params['W2']=np.random.rand(10,12)  
-        # NN.params['b2']=np.zeros(12)
-
         network = TwoLayerNet(input_size=3, hidden_size=10, output_size=12)
         input_data_po=[]
         out_data_po=[]
         input_data_ne=[]
         out_data_ne=[]
-    
-        lr = 0.05
-        epochs = 100
 
-        cost_list=[[0]*1000 for _ in range(10)]
-        correct=0
-        sum=0
+        m = {}          #adam 에서 쓰일 m,v값
+        m_hat = {}
+        v = {}
+        v_hat = {}
+
+        m_b = {}        #adam 에서 쓰일 m,v값 for bias
+        m_hat_b = {}
+        v_b = {}
+        v_hat_b = {}
+
+        m2 = {}         #adam 에서 쓰일 m,v값 for w2
+        m2_hat = {}
+        v2 = {}
+        v2_hat = {}
+
+        m2_b = {}       #adam 에서 쓰일 m,v값 for w2 bias
+        m2_hat_b = {}
+        v2_b = {}
+        v2_hat_b = {}
+
+        beta_1=0.9
+        beta_2=0.999
+        epsilon=10e-6
+
+        m=np.zeros( NN.params['W1'].shape)
+        m_hat=np.zeros( NN.params['W1'].shape)
+        v=np.zeros( NN.params['W1'].shape)
+        v_hat=np.zeros( NN.params['W1'].shape)
+
+        m_b=np.zeros( NN.params['b1'].shape)
+        m_hat_b=np.zeros( NN.params['b1'].shape)
+        v_b=np.zeros( NN.params['b1'].shape)
+        v_hat_b=np.zeros( NN.params['b1'].shape)
+
+        m2=np.zeros( NN.params['W2'].shape)
+        m2_hat=np.zeros( NN.params['W2'].shape)
+        v2=np.zeros( NN.params['W2'].shape)
+        v2_hat=np.zeros( NN.params['W2'].shape)
+
+        m2_b=np.zeros( NN.params['b2'].shape)
+        m2_hat_b=np.zeros( NN.params['b2'].shape)
+        v2_b=np.zeros( NN.params['b2'].shape)
+        v2_hat_b=np.zeros( NN.params['b2'].shape)
+
+
+
+        lr = 0.01
+        epochs = 200
 
 
         for i,val in enumerate(input_data_posi):  #각 나라별 input, output 데이터 정제(posi)
@@ -60,20 +96,49 @@ class NN:
         #output one hot encoding
         out_ohe_ne=np.eye(12)[out_data_ne]
         
-        #NN.predict(self,input_data_po[0])
         ans=0
         total=0
         for i in range(epochs):
 
             for i,val in enumerate(input_data_po):
                 
-                #grad=NN.numerical_gradient(self,input_data_po[i],out_ohe_po[i])
                 grads=network.gradient(input_data_po[i],out_ohe_po[i])
-
                 NN.params['W1']-=lr*grads['W1']        #grad 값과 lr에 따라 가중치,편차값 조정 
-                NN.params['b1']-=lr*grads['b1']
+                NN.params['b1']-=lr*grads['b1']           # SGD기법
                 NN.params['W2']-=lr*grads['W2']
                 NN.params['b2']-=lr*grads['b2']
+
+                
+                ########adam#####
+                # for i,val in  enumerate(NN.params['W1']):   #Adam기법
+                #     for j,val_j in enumerate(val):
+                #         m[i][j]=beta_1*m[i][j]+(1-beta_1)*grads['W1'][i][j]
+                #         m_hat[i][j]=m[i][j]/(1-beta_1*beta_1)
+                #         v[i][j] = beta_2 * v[i][j] + (1 - beta_2) * grads['W1'][i][j] * grads['W1'][i][j]
+                #         v_hat[i][j] = v[i][j] / (1 - beta_2 * beta_2)
+                #         NN.params['W1'][i][j] -= lr * m_hat[i][j] / np.sqrt(v_hat[i][j] + epsilon)
+                # for i,val in enumerate(NN.params['b1']):
+                #         m_b[i]=beta_1*m_b[i]+(1-beta_1)*grads['b1']
+                #         m_hat_b[i]=m_b[i]/(1-beta_1*beta_1)
+                #         v_b[i] = beta_2 * v_b[i] + (1 - beta_2) * grads['b1'] * grads['b1']
+                #         v_hat_b[i] = v_b[i] / (1 - beta_2 * beta_2)
+                #         NN.params['b1'][i]-= lr * m_hat_b[i] / np.sqrt(v_hat_b[i] + epsilon)
+                
+                # for i,val in  enumerate(NN.params['W2']):
+                #     for j,val_j in enumerate(val):
+                #         m2[i][j]=beta_1*m2[i][j]+(1-beta_1)*grads['W2'][i][j]
+                #         m2_hat[i][j]=m2[i][j]/(1-beta_1*beta_1)
+                #         v2[i][j] = beta_2 * v2[i][j] + (1 - beta_2) * grads['W2'][i][j] * grads['W2'][i][j]
+                #         v2_hat[i][j] = v2[i][j] / (1 - beta_2 * beta_2)
+                #         NN.params['W2'][i][j] -= lr * m2_hat[i][j] / np.sqrt(v2_hat[i][j] + epsilon)
+                # for i,val in enumerate(NN.params['b2']):
+                #         m2_b[i]=beta_1*m2_b[i]+(1-beta_1)*grads['b2']
+                #         m2_hat_b[i]=m2_b[i]/(1-beta_1*beta_1)
+                #         v2_b[i] = beta_2 * v2_b[i] + (1 - beta_2) * grads['b2'] * grads['b2']
+                #         v2_hat_b[i] = v2_b[i] / (1 - beta_2 * beta_2)
+                #         NN.params['b2'][i] -= lr * m2_hat_b[i] / np.sqrt(v2_hat_b[i] + epsilon)
+                 ########adam#####
+
 
         for i,val in enumerate(input_data_po):
             tmp=network.accuracy(input_data_po[i],out_ohe_po[i])
@@ -82,10 +147,10 @@ class NN:
         plt.plot(NN.plt_X)
         plt.show()
 
-        print(ans/total)        
+        print('정확도: '+str(ans/total))        
 
             
-
+################################수치 미분법 코드###################
     # def predict(self,x):
     #     w1,w2=self.params['W1'],self.params['W2']
     #     b1,b2=self.params['b1'],self.params['b2']
@@ -170,8 +235,8 @@ class NN:
     #         return 1
     #     else:
     #         return 0    
-
-    def nomalize(self,x):
+################################수치 미분법 코드###################
+    def nomalize(self,x):                   #정규화 코드
         min=np.min(x,axis=0)
         max=np.max(x,axis=0)
         
@@ -181,15 +246,14 @@ class NN:
         return x        
 
 
-
 class TwoLayerNet:
 
     def __init__(self, input_size, hidden_size, output_size, weight_init_std = 0.01):
         # 가중치 초기화
 
-        NN.params['W1'] = weight_init_std * np.random.randn(input_size, hidden_size)
+        NN.params['W1'] = weight_init_std * np.random.randn(input_size, hidden_size)/np.sqrt(hidden_size)   
         NN.params['b1'] = np.zeros(hidden_size)
-        NN.params['W2'] = weight_init_std * np.random.randn(hidden_size, output_size) 
+        NN.params['W2'] = weight_init_std * np.random.randn(hidden_size, output_size) /np.sqrt(hidden_size)   
         NN.params['b2'] = np.zeros(output_size)
 
         # 계층 생성
@@ -215,8 +279,7 @@ class TwoLayerNet:
         y = self.predict(x)
         if y.ndim != 1 : y = np.argmax(y, axis=1)
         if t.ndim != 1 : t = np.argmax(t, axis=1)
-        print(np.argmax(y))
-        #print(np.argmax(t))
+        print('예측값: '+str(np.argmax(y)))
 
         if np.argmax(y)==np.argmax(t):
             return 1
@@ -242,7 +305,6 @@ class TwoLayerNet:
         grads = {}
         grads['W1'], grads['b1'] = self.layers['Affine1'].dW, self.layers['Affine1'].db
         grads['W2'], grads['b2'] = self.layers['Affine2'].dW, self.layers['Affine2'].db
-        #print(grads)
         return grads     
 
 class Relu:
@@ -253,14 +315,11 @@ class Relu:
         self.mask = (x <= 0)
         out = x.copy()
         out[self.mask] = 0
-        # print('relu')
-        # print(out)
         return out
 
     def backward(self, dout):
         dout[self.mask] = 0
         dx = dout
-        #print(dx)
         return dx
 
 class Affine:
@@ -274,28 +333,6 @@ class Affine:
 
     def forward(self, x):
         self.original_x_shape = x.shape
-        
-
-        # # 평탄화 진행
-        # if x.ndim !=1:
-        #     DATE_SIZE = x.shape[0]	# 배치 사이즈 가져오기
-        #     x = x.reshape(DATE_SIZE, -1)
-        #     self.x = x	# 역전파 때 가중치에 곱하기 위해 저장
-        #     # print('???')
-        #     # print(self.x.shape)
-        #     out = np.dot(self.x, self.W) + self.b
-        #     # print('aff')
-        #     # print(out)
-        #     return out
-        # else:
-        #     self.x = x
-        #     out = np.dot(x, self.W) + self.b
-        #     # print(self.W.shape)
-        #     # print('aff')
-        #     # print(out)
-        #     return out
-
-        #x = x.reshape(x.shape[0], -1)
         self.x = x
 
         out = np.dot(self.x, self.W) + self.b
@@ -304,10 +341,6 @@ class Affine:
         
     def backward(self, dout):
         dx = np.dot(dout, self.W.T)
-        #print(dout.shape)
-        # print(self.W.T.shape)
-        # print(dx.shape)
-        #print(self.x.T.shape)
         self.dW = np.dot(self.x.T.reshape(self.x.T.shape[0],1), dout.reshape(1,dout.shape[0]))
         self.db = np.sum(dout, axis=0)
         return dx
@@ -324,7 +357,7 @@ class SoftmaxWithLoss:
         self.y = SoftmaxWithLoss.softmax(x)
         self.loss = SoftmaxWithLoss.cross_entropy_error(self.y, self.t)
         NN.plt_X.append(self.loss)
-        print(self.loss)
+        print('loss: '+str(self.loss))
         return self.loss
 
     def backward(self, dout=1):
