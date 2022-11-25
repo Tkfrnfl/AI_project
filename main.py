@@ -77,7 +77,7 @@ for i,val in enumerate(data_list2):          #데이터 가공 (추가된 엑셀
             country_result_posi.append(data_list_a)
 
 
-NN(country_result_posi,country_result_nega,"South Korea")
+NN(country_result_posi,country_result_nega,"Ecuador")
 
 
 

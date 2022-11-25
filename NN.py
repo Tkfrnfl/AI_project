@@ -103,42 +103,41 @@ class NN:
             for i,val in enumerate(input_data_po):
                 
                 grads=network.gradient(input_data_po[i],out_ohe_po[i])
-                NN.params['W1']-=lr*grads['W1']        #grad 값과 lr에 따라 가중치,편차값 조정 
-                NN.params['b1']-=lr*grads['b1']           # SGD기법
-                NN.params['W2']-=lr*grads['W2']
-                NN.params['b2']-=lr*grads['b2']
+                # NN.params['W1']-=lr*grads['W1']        #grad 값과 lr에 따라 가중치,편차값 조정 
+                # NN.params['b1']-=lr*grads['b1']           # SGD기법
+                # NN.params['W2']-=lr*grads['W2']
+                # NN.params['b2']-=lr*grads['b2']
 
                 
                 ########adam#####
-                # for i,val in  enumerate(NN.params['W1']):   #Adam기법
-                #     for j,val_j in enumerate(val):
-                #         m[i][j]=beta_1*m[i][j]+(1-beta_1)*grads['W1'][i][j]
-                #         m_hat[i][j]=m[i][j]/(1-beta_1*beta_1)
-                #         v[i][j] = beta_2 * v[i][j] + (1 - beta_2) * grads['W1'][i][j] * grads['W1'][i][j]
-                #         v_hat[i][j] = v[i][j] / (1 - beta_2 * beta_2)
-                #         NN.params['W1'][i][j] -= lr * m_hat[i][j] / np.sqrt(v_hat[i][j] + epsilon)
-                # for i,val in enumerate(NN.params['b1']):
-                #         m_b[i]=beta_1*m_b[i]+(1-beta_1)*grads['b1']
-                #         m_hat_b[i]=m_b[i]/(1-beta_1*beta_1)
-                #         v_b[i] = beta_2 * v_b[i] + (1 - beta_2) * grads['b1'] * grads['b1']
-                #         v_hat_b[i] = v_b[i] / (1 - beta_2 * beta_2)
-                #         NN.params['b1'][i]-= lr * m_hat_b[i] / np.sqrt(v_hat_b[i] + epsilon)
+                for i,val in  enumerate(NN.params['W1']):   #Adam기법
+                    for j,val_j in enumerate(val):
+                        m[i][j]=beta_1*m[i][j]+(1-beta_1)*grads['W1'][i][j]
+                        m_hat[i][j]=m[i][j]/(1-beta_1*beta_1)
+                        v[i][j] = beta_2 * v[i][j] + (1 - beta_2) * grads['W1'][i][j] * grads['W1'][i][j]
+                        v_hat[i][j] = v[i][j] / (1 - beta_2 * beta_2)
+                        NN.params['W1'][i][j] -= lr * m_hat[i][j] / np.sqrt(v_hat[i][j] + epsilon)
+                for i,val in enumerate(NN.params['b1']):
+                        m_b[i]=beta_1*m_b[i]+(1-beta_1)*grads['b1']
+                        m_hat_b[i]=m_b[i]/(1-beta_1*beta_1)
+                        v_b[i] = beta_2 * v_b[i] + (1 - beta_2) * grads['b1'] * grads['b1']
+                        v_hat_b[i] = v_b[i] / (1 - beta_2 * beta_2)
+                        NN.params['b1'][i]-= lr * m_hat_b[i] / np.sqrt(v_hat_b[i] + epsilon)
                 
-                # for i,val in  enumerate(NN.params['W2']):
-                #     for j,val_j in enumerate(val):
-                #         m2[i][j]=beta_1*m2[i][j]+(1-beta_1)*grads['W2'][i][j]
-                #         m2_hat[i][j]=m2[i][j]/(1-beta_1*beta_1)
-                #         v2[i][j] = beta_2 * v2[i][j] + (1 - beta_2) * grads['W2'][i][j] * grads['W2'][i][j]
-                #         v2_hat[i][j] = v2[i][j] / (1 - beta_2 * beta_2)
-                #         NN.params['W2'][i][j] -= lr * m2_hat[i][j] / np.sqrt(v2_hat[i][j] + epsilon)
-                # for i,val in enumerate(NN.params['b2']):
-                #         m2_b[i]=beta_1*m2_b[i]+(1-beta_1)*grads['b2']
-                #         m2_hat_b[i]=m2_b[i]/(1-beta_1*beta_1)
-                #         v2_b[i] = beta_2 * v2_b[i] + (1 - beta_2) * grads['b2'] * grads['b2']
-                #         v2_hat_b[i] = v2_b[i] / (1 - beta_2 * beta_2)
-                #         NN.params['b2'][i] -= lr * m2_hat_b[i] / np.sqrt(v2_hat_b[i] + epsilon)
+                for i,val in  enumerate(NN.params['W2']):
+                    for j,val_j in enumerate(val):
+                        m2[i][j]=beta_1*m2[i][j]+(1-beta_1)*grads['W2'][i][j]
+                        m2_hat[i][j]=m2[i][j]/(1-beta_1*beta_1)
+                        v2[i][j] = beta_2 * v2[i][j] + (1 - beta_2) * grads['W2'][i][j] * grads['W2'][i][j]
+                        v2_hat[i][j] = v2[i][j] / (1 - beta_2 * beta_2)
+                        NN.params['W2'][i][j] -= lr * m2_hat[i][j] / np.sqrt(v2_hat[i][j] + epsilon)
+                for i,val in enumerate(NN.params['b2']):
+                        m2_b[i]=beta_1*m2_b[i]+(1-beta_1)*grads['b2']
+                        m2_hat_b[i]=m2_b[i]/(1-beta_1*beta_1)
+                        v2_b[i] = beta_2 * v2_b[i] + (1 - beta_2) * grads['b2'] * grads['b2']
+                        v2_hat_b[i] = v2_b[i] / (1 - beta_2 * beta_2)
+                        NN.params['b2'][i] -= lr * m2_hat_b[i] / np.sqrt(v2_hat_b[i] + epsilon)
                  ########adam#####
-
 
         for i,val in enumerate(input_data_po):
             tmp=network.accuracy(input_data_po[i],out_ohe_po[i])
@@ -146,6 +145,10 @@ class NN:
             total+=1
         plt.plot(NN.plt_X)
         plt.show()
+
+        checkForWorldCup=np.array([45,3,6])     #점유율,유효슈팅,슈팅 ex)68,3,5
+        checkForWorldCup=self.nomalize(checkForWorldCup)
+        network.accuracy_woldcup(checkForWorldCup)
 
         print('정확도: '+str(ans/total))        
 
@@ -285,6 +288,11 @@ class TwoLayerNet:
             return 1
         else:
             return 0    
+    
+    def accuracy_woldcup(self, x):
+        y = self.predict(x)
+        if y.ndim != 1 : y = np.argmax(y, axis=1)
+        print('월드컵: '+str(np.argmax(y)))       
         
     # x : 입력 데이터, t : 정답 레이블
         
