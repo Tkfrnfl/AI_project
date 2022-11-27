@@ -8,7 +8,7 @@
 3.python main.py
 메인 파일 실행
 
-** adam>> sgd 로 변경을 원하는 경후 NN.py 112 adam부분 주석처리후 106줄 sgd 부분 주석 해제
+** adam>> sgd 로 변경을 원하는 경우 NN.py 112 adam부분 주석처리후 106줄 sgd 부분 주석 해제
 
 **데이터 특성상 lr값이 작아질수록 loss값 수렴까지 큰 epoch(약500이상)가 필요하므로 주의!
 
